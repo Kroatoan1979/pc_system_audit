@@ -27,7 +27,7 @@ O objetivo é manter um **histórico evolutivo** do ambiente de trabalho, permit
 
 Estrutura base dos ficheiros deste repositório:
 
-/audit/  
+/audit_2026-02-05/  
 &nbsp;&nbsp;&nbsp;&nbsp;hardware.txt  
 &nbsp;&nbsp;&nbsp;&nbsp;hardware.json  
 &nbsp;&nbsp;&nbsp;&nbsp;os.txt  
