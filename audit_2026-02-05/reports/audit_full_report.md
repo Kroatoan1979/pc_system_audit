@@ -1,7 +1,15 @@
 # PC System Audit - 2026-02-05
 
-## Hardware
+## Índice
+- [Hardware](#hardware)
+- [Sistema Operativo](#sistema-operativo)
+- [Software Instalado](#software-instalado)
+- [Ambiente de Desenvolvimento](#ambiente-de-desenvolvimento)
+- [Performance](#performance)
 
+---
+
+## Hardware
 
 WindowsBuildLabEx                                       : 26100.1.amd64fre.ge_release.240331-1435
 WindowsCurrentVersion                                   : 6.3
@@ -123,9 +131,9 @@ OsCountryCode                                           : 351
 OsCurrentTimeZone                                       : 0
 OsLocaleID                                              : 0816
 OsLocale                                                : pt-PT
-OsLocalDateTime                                         : 05/02/2026 12:56:18
+OsLocalDateTime                                         : 05/02/2026 13:16:03
 OsLastBootUpTime                                        : 05/02/2026 08:59:44
-OsUptime                                                : 03:56:33.9000822
+OsUptime                                                : 04:16:19.3977010
 OsBuildType                                             : Multiprocessor Free
 OsCodeSet                                               : 1252
 OsDataExecutionPreventionAvailable                      : True
@@ -137,13 +145,13 @@ OsDistributed                                           : False
 OsEncryptionLevel                                       : 256
 OsForegroundApplicationBoost                            : Maximum
 OsTotalVisibleMemorySize                                : 33267576
-OsFreePhysicalMemory                                    : 16666900
+OsFreePhysicalMemory                                    : 17814672
 OsTotalVirtualMemorySize                                : 35364728
-OsFreeVirtualMemory                                     : 13272896
-OsInUseVirtualMemory                                    : 22091832
+OsFreeVirtualMemory                                     : 13646760
+OsInUseVirtualMemory                                    : 21717968
 OsTotalSwapSpaceSize                                    : 
 OsSizeStoredInPagingFiles                               : 2097152
-OsFreeSpaceInPagingFiles                                : 1925708
+OsFreeSpaceInPagingFiles                                : 1903508
 OsPagingFiles                                           : {C:\pagefile.sys}
 OsHardwareAbstractionLayer                              : 10.0.26100.1
 OsInstallDate                                           : 29/06/2025 17:46:33
@@ -152,7 +160,7 @@ OsMaxNumberOfProcesses                                  : 4294967295
 OsMaxProcessMemorySize                                  : 137438953344
 OsMuiLanguages                                          : {pt-PT}
 OsNumberOfLicensedUsers                                 : 
-OsNumberOfProcesses                                     : 338
+OsNumberOfProcesses                                     : 341
 OsNumberOfUsers                                         : 2
 OsOrganization                                          : 
 OsArchitecture                                          : 64 bits
@@ -188,95 +196,99 @@ DeviceGuardCodeIntegrityPolicyEnforcementStatus         :
 DeviceGuardUserModeCodeIntegrityPolicyEnforcementStatus : 
 
 
+---
+
 ## Sistema Operativo
+``
+
+Status Name                                                              FreePhysicalMemory FreeSpaceInPagingFiles FreeVirtualMemory Caption
+------ ----                                                              ------------------ ---------------------- ----------------- -------          
+OK     Microsoft Windows 11 Home|C:\WINDOWS|\Device\Harddisk0\Partition3           17904664                1903508          13736608 Microsoft Window…
 
 
-SystemDirectory     Organization BuildNumber RegisteredUser             SerialNumber            Version
----------------     ------------ ----------- --------------             ------------            -------
-C:\WINDOWS\system32              26200       ivan.almeida1979@gmail.com 00325-97250-04250-AAOEM 10.0.26200
+``
 
+---
 
 ## Software Instalado
+| Nome | Versão |
+|------|--------|
+| Python 3.14.3 pip Bootstrap (64-bit) | 3.14.3150.0 |
+| Python 3.14.3 Standard Library (64-bit) | 3.14.3150.0 |
+| Microsoft Teams Meeting Add-in for Microsoft Office | 1.25.28902 |
+| PowerToys (Preview) | 0.97.0 |
+| oneAPI Level Zero | 1.24.0 |
+| Python 3.14.3 Development Libraries (64-bit) | 3.14.3150.0 |
+| Python 3.14.3 Add to Path (64-bit) | 3.14.3150.0 |
+| Python 3.14.3 Documentation (64-bit) | 3.14.3150.0 |
+| Python 3.14.3 Test Suite (64-bit) | 3.14.3150.0 |
+| Python 3.14.3 Executables (64-bit) | 3.14.3150.0 |
+| Python 3.14.3 Core Interpreter (64-bit) | 3.14.3150.0 |
+| Python 3.14.3 Tcl/Tk Support (64-bit) | 3.14.3150.0 |
+| Office 16 Click-to-Run Extensibility Component | 16.0.19426.20170 |
+| Office 16 Click-to-Run Licensing Component | 16.0.19029.20208 |
+| Intel(R) Wireless Bluetooth(R) | 24.10.0.4 |
+| Microsoft Visual Studio Setup WMI Provider | 3.12.2140.44225 |
+| Microsoft Visual C++ 2022 X64 Additional Runtime - 14.50.35719 | 14.50.35719 |
+| Microsoft .NET Host - 9.0.11 (x64) | 72.44.42384 |
+| Microsoft .NET Runtime - 9.0.11 (x64) | 72.44.42384 |
+| SportZone | 1.5.1 |
+| Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219 | 10.0.40219 |
+| Microsoft Windows Desktop Runtime - 8.0.14 (x86) | 64.56.29521 |
+| Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219 | 10.0.40219 |
+| Microsoft .NET Host FX Resolver - 8.0.17 (x64) | 64.68.34370 |
+| PredatorSense Config | 5.0.1463 |
+| Microsoft Visual C++ 2022 X64 Minimum Runtime - 14.50.35719 | 14.50.35719 |
+| Microsoft Visual C++ 2022 X86 Debug Runtime - 14.44.35211 | 14.44.35211 |
+| Surfshark | 6.4.0999 |
+| Microsoft Visual C++ 2013 x64 Minimum Runtime - 12.0.40664 | 12.0.40664 |
+| Microsoft .NET Host - 8.0.14 (x86) | 64.56.29490 |
+| Microsoft Visual C++ 2022 X86 Minimum Runtime - 14.50.35719 | 14.50.35719 |
+| Microsoft ASP.NET Core 8.0.14 Shared Framework (x86) | 8.0.14.25112 |
+| Oracle VirtualBox 7.2.4 | 7.2.4 |
+| PredatorSense Prerequisites | 5.0.1463 |
+| Adobe Acrobat (64-bit) | 25.001.21151 |
+| Adobe Refresh Manager | 1.8.0 |
+| Microsoft Visual Studio 2010 Tools for Office Runtime (x64) | 10.0.60915 |
+| PowerShell 7-x64 | 7.5.4.0 |
+| Intel(R) Computing Improvement Program | 2.4.11145 |
+| Microsoft Visual C++ 2012 x64 Additional Runtime - 11.0.61030 | 11.0.61030 |
+| Logi RightSightForWebcams 1.1.207 | 1.1.207.0 |
+| Microsoft .NET Host FX Resolver - 8.0.22 (x64) | 64.88.42551 |
+| Microsoft .NET Runtime - 8.0.17 (x64) | 64.68.34370 |
+| vs_FileTracker_Singleton | 17.14.36015 |
+| Microsoft .NET Runtime - 8.0.14 (x86) | 64.56.29490 |
+| Care Center Service | 4.00.3058 |
+| MobaXterm | 25.3.0.5384 |
+| Microsoft Visual C++ 2022 X64 Debug Runtime - 14.44.35211 | 14.44.35211 |
+| Microsoft .NET Runtime - 8.0.22 (x64) | 64.88.42551 |
+| Logi Plugin Service | 6.2.6.1611 |
+|  |  |
+| Node.js | 24.13.0 |
+| Microsoft Visual Studio Setup Configuration | 3.12.2140.44225 |
+| Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.40664 | 12.0.40664 |
+| Microsoft .NET Host - 8.0.22 (x64) | 64.88.42551 |
+| Universal CRT Redistributable | 10.0.26624 |
+| Microsoft Visual C++ 2012 x86 Additional Runtime - 11.0.61030 | 11.0.61030 |
+| Microsoft ASP.NET Core 8.0.22 Shared Framework (x64) | 8.0.22.25528 |
+| Windows Subsystem for Linux | 2.5.9.0 |
+| Microsoft Visual C++ 2012 x64 Minimum Runtime - 11.0.61030 | 11.0.61030 |
+| Intel Driver && Support Assistant | 25.4.36.6 |
+| Microsoft Visual C++ 2022 X86 Additional Runtime - 14.50.35719 | 14.50.35719 |
+| Microsoft .NET Host FX Resolver - 9.0.11 (x64) | 72.44.42384 |
+| Python Launcher | 3.14.3150.0 |
+| Microsoft .NET Host FX Resolver - 8.0.14 (x86) | 64.56.29490 |
+| Microsoft Visual C++ 2012 x86 Minimum Runtime - 11.0.61030 | 11.0.61030 |
+| Microsoft Windows Desktop Runtime - 8.0.22 (x64) | 64.88.42561 |
+| Intel® Graphics Software | 25.40.1953.2 |
+| Microsoft Windows Desktop Runtime - 9.0.11 (x64) | 72.44.42433 |
+| Adobe AIR | 51.2.2.6 |
+| vcpp_crt.redist.clickonce | 14.44.35211 |
+| Microsoft Windows Desktop Runtime - 8.0.17 (x64) | 64.68.34385 |
 
-
-Name                                                           Version
-----                                                           -------
-Python 3.14.3 pip Bootstrap (64-bit)                           3.14.3150.0
-Python 3.14.3 Standard Library (64-bit)                        3.14.3150.0
-Microsoft Teams Meeting Add-in for Microsoft Office            1.25.28902
-PowerToys (Preview)                                            0.97.0
-oneAPI Level Zero                                              1.24.0
-Python 3.14.3 Development Libraries (64-bit)                   3.14.3150.0
-Python 3.14.3 Add to Path (64-bit)                             3.14.3150.0
-Python 3.14.3 Documentation (64-bit)                           3.14.3150.0
-Python 3.14.3 Test Suite (64-bit)                              3.14.3150.0
-Python 3.14.3 Executables (64-bit)                             3.14.3150.0
-Python 3.14.3 Core Interpreter (64-bit)                        3.14.3150.0
-Python 3.14.3 Tcl/Tk Support (64-bit)                          3.14.3150.0
-Office 16 Click-to-Run Extensibility Component                 16.0.19426.20170
-Office 16 Click-to-Run Licensing Component                     16.0.19029.20208
-Intel(R) Wireless Bluetooth(R)                                 24.10.0.4
-Microsoft Visual Studio Setup WMI Provider                     3.12.2140.44225
-Microsoft Visual C++ 2022 X64 Additional Runtime - 14.50.35719 14.50.35719
-Microsoft .NET Host - 9.0.11 (x64)                             72.44.42384
-Microsoft .NET Runtime - 9.0.11 (x64)                          72.44.42384
-SportZone                                                      1.5.1
-Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219    10.0.40219
-Microsoft Windows Desktop Runtime - 8.0.14 (x86)               64.56.29521
-Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219    10.0.40219
-Microsoft .NET Host FX Resolver - 8.0.17 (x64)                 64.68.34370
-PredatorSense Config                                           5.0.1463
-Microsoft Visual C++ 2022 X64 Minimum Runtime - 14.50.35719    14.50.35719
-Microsoft Visual C++ 2022 X86 Debug Runtime - 14.44.35211      14.44.35211
-Surfshark                                                      6.4.0999
-Microsoft Visual C++ 2013 x64 Minimum Runtime - 12.0.40664     12.0.40664
-Microsoft .NET Host - 8.0.14 (x86)                             64.56.29490
-Microsoft Visual C++ 2022 X86 Minimum Runtime - 14.50.35719    14.50.35719
-Microsoft ASP.NET Core 8.0.14 Shared Framework (x86)           8.0.14.25112
-Oracle VirtualBox 7.2.4                                        7.2.4
-PredatorSense Prerequisites                                    5.0.1463
-Adobe Acrobat (64-bit)                                         25.001.21151
-Adobe Refresh Manager                                          1.8.0
-Microsoft Visual Studio 2010 Tools for Office Runtime (x64)    10.0.60915
-PowerShell 7-x64                                               7.5.4.0
-Intel(R) Computing Improvement Program                         2.4.11145
-Microsoft Visual C++ 2012 x64 Additional Runtime - 11.0.61030  11.0.61030
-Logi RightSightForWebcams 1.1.207                              1.1.207.0
-Microsoft .NET Host FX Resolver - 8.0.22 (x64)                 64.88.42551
-Microsoft .NET Runtime - 8.0.17 (x64)                          64.68.34370
-vs_FileTracker_Singleton                                       17.14.36015
-Microsoft .NET Runtime - 8.0.14 (x86)                          64.56.29490
-Care Center Service                                            4.00.3058
-MobaXterm                                                      25.3.0.5384
-Microsoft Visual C++ 2022 X64 Debug Runtime - 14.44.35211      14.44.35211
-Microsoft .NET Runtime - 8.0.22 (x64)                          64.88.42551
-Logi Plugin Service                                            6.2.6.1611
-                                                               
-Node.js                                                        24.13.0
-Microsoft Visual Studio Setup Configuration                    3.12.2140.44225
-Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.40664  12.0.40664
-Microsoft .NET Host - 8.0.22 (x64)                             64.88.42551
-Universal CRT Redistributable                                  10.0.26624
-Microsoft Visual C++ 2012 x86 Additional Runtime - 11.0.61030  11.0.61030
-Microsoft ASP.NET Core 8.0.22 Shared Framework (x64)           8.0.22.25528
-Windows Subsystem for Linux                                    2.5.9.0
-Microsoft Visual C++ 2012 x64 Minimum Runtime - 11.0.61030     11.0.61030
-Intel Driver && Support Assistant                              25.4.36.6
-Microsoft Visual C++ 2022 X86 Additional Runtime - 14.50.35719 14.50.35719
-Microsoft .NET Host FX Resolver - 9.0.11 (x64)                 72.44.42384
-Python Launcher                                                3.14.3150.0
-Microsoft .NET Host FX Resolver - 8.0.14 (x86)                 64.56.29490
-Microsoft Visual C++ 2012 x86 Minimum Runtime - 11.0.61030     11.0.61030
-Microsoft Windows Desktop Runtime - 8.0.22 (x64)               64.88.42561
-Intel® Graphics Software                                       25.40.1953.2
-Microsoft Windows Desktop Runtime - 9.0.11 (x64)               72.44.42433
-Adobe AIR                                                      51.2.2.6
-vcpp_crt.redist.clickonce                                      14.44.35211
-Microsoft Windows Desktop Runtime - 8.0.17 (x64)               64.68.34385
-
+---
 
 ## Ambiente de Desenvolvimento
-
 === Python ===
 Python 3.14.3
 === Node.js ===
@@ -293,25 +305,28 @@ D i s t r i b u i þ Ò o   P r e d e f i n i d a :   U b u n t u - 2 2 . 0 4 
  
 
 
-## Performance
+---
 
+## Performance
 ### CPU
 
 LoadPercentage
 --------------
-            18
+            48
 
 
 ### Memória
 
 FreePhysicalMemory TotalVisibleMemorySize
 ------------------ ----------------------
-          16145380               33267576
+          17913092               33267576
 
 
 ### Disco
 
 DeviceID    FreeSpace          Size
 --------    ---------          ----
-C:       707720867840 1023234011136
+C:       707707576320 1023234011136
 
+
+---
