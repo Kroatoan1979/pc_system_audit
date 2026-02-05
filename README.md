@@ -1,6 +1,7 @@
-﻿# PC System Audit
+# PC System Audit
 Ferramenta automÃ¡tica de auditoria ao Windows. Recolhe hardware, software, sistema operativo, apps da Store, ambiente de desenvolvimento e performance. ## Gera relatÃ³rios completos, mantÃ©m histÃ³rico por data e integra com Git/GitHub.
 ## Auditorias realizadas
+- [2026-02-05](audit_2026-02-05/)
 - [2026-02-05](audit_2026-02-05/)
 - [2026-02-05](audit_2026-02-05/)
 - [2026-02-05](audit_2026-02-05/)
