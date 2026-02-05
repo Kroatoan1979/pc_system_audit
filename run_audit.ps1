@@ -169,7 +169,7 @@ foreach ($line in $readmeContent) {
     }
 }
 
-$newReadme | Set-Content -Path $readmePath -Encoding utf8
+$newReadme | Set-Content -Path $readmePath -Encoding utf8NoBOM
 
 # ============================
 # 9. Git add / commit / push automatico

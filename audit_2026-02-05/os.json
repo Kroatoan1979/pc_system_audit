@@ -1189,7 +1189,7 @@
                                   },
                                   {
                                       "Name":  "FreePhysicalMemory",
-                                      "Value":  18501656,
+                                      "Value":  18449716,
                                       "CimType":  8,
                                       "Flags":  "Property, ReadOnly, NotModified",
                                       "IsValueModified":  false
@@ -1203,7 +1203,7 @@
                                   },
                                   {
                                       "Name":  "FreeVirtualMemory",
-                                      "Value":  14723820,
+                                      "Value":  14688368,
                                       "CimType":  8,
                                       "Flags":  "Property, ReadOnly, NotModified",
                                       "IsValueModified":  false
@@ -1217,7 +1217,7 @@
                                   },
                                   {
                                       "Name":  "LocalDateTime",
-                                      "Value":  "\/Date(1770292678169)\/",
+                                      "Value":  "\/Date(1770292890972)\/",
                                       "CimType":  13,
                                       "Flags":  "Property, ReadOnly, NotModified",
                                       "IsValueModified":  false
@@ -1245,7 +1245,7 @@
                                   },
                                   {
                                       "Name":  "NumberOfProcesses",
-                                      "Value":  324,
+                                      "Value":  325,
                                       "CimType":  6,
                                       "Flags":  "Property, ReadOnly, NotModified",
                                       "IsValueModified":  false
@@ -1584,15 +1584,15 @@
     "CSName":  "IVAN_PREDATOR",
     "CurrentTimeZone":  0,
     "Distributed":  false,
-    "FreePhysicalMemory":  18501656,
+    "FreePhysicalMemory":  18449716,
     "FreeSpaceInPagingFiles":  1916364,
-    "FreeVirtualMemory":  14723820,
+    "FreeVirtualMemory":  14688368,
     "LastBootUpTime":  "\/Date(1770281984500)\/",
-    "LocalDateTime":  "\/Date(1770292678169)\/",
+    "LocalDateTime":  "\/Date(1770292890972)\/",
     "MaxNumberOfProcesses":  4294967295,
     "MaxProcessMemorySize":  137438953344,
     "NumberOfLicensedUsers":  null,
-    "NumberOfProcesses":  324,
+    "NumberOfProcesses":  325,
     "NumberOfUsers":  2,
     "OSType":  18,
     "OtherTypeDescription":  null,

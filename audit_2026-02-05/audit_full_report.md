@@ -4,55 +4,20 @@
 
 
 
-WindowsBuildLabEx                                       : 26100
-                                                          .1.am
-                                                          d64fr
-                                                          e.ge_
-                                                          relea
-                                                          se.24
-                                                          0331-
-                                                          1435
+WindowsBuildLabEx                                       : 26100.1.amd64fre.ge_release.240331-1435
 WindowsCurrentVersion                                   : 6.3
 WindowsEditionId                                        : Core
-WindowsInstallationType                                 : Clien
-                                                          t
-WindowsInstallDateFromRegistry                          : 29/06
-                                                          /2025
-                                                           16:4
-                                                          6:33
-WindowsProductId                                        : 00325
-                                                          -9725
-                                                          0-042
-                                                          50-AA
-                                                          OEM
-WindowsProductName                                      : Windo
-                                                          ws 
-                                                          10 
-                                                          Home
+WindowsInstallationType                                 : Client
+WindowsInstallDateFromRegistry                          : 29/06/2025 16:46:33
+WindowsProductId                                        : 00325-97250-04250-AAOEM
+WindowsProductName                                      : Windows 10 Home
 WindowsRegisteredOrganization                           : 
-WindowsRegisteredOwner                                  : ivan.
-                                                          almei
-                                                          da197
-                                                          9@gma
-                                                          il.co
-                                                          m
-WindowsSystemRoot                                       : C:\WI
-                                                          NDOWS
+WindowsRegisteredOwner                                  : ivan.almeida1979@gmail.com
+WindowsSystemRoot                                       : C:\WINDOWS
 WindowsVersion                                          : 2009
 OSDisplayVersion                                        : 25H2
-BiosCharacteristics                                     : {7, 
-                                                          11, 
-                                                          12, 1
-                                                          5...}
-BiosBIOSVersion                                         : {ACRS
-                                                          YS - 
-                                                          2, V1
-                                                          .16, 
-                                                          INSYD
-                                                          E Cor
-                                                          p. - 
-                                                          54445
-                                                          116}
+BiosCharacteristics                                     : {7, 11, 12, 15...}
+BiosBIOSVersion                                         : {ACRSYS - 2, V1.16, INSYDE Corp. - 54445116}
 BiosBuildNumber                                         : 
 BiosCaption                                             : V1.16
 BiosCodeSet                                             : 
@@ -66,35 +31,23 @@ BiosInstallableLanguages                                :
 BiosInstallDate                                         : 
 BiosLanguageEdition                                     : 
 BiosListOfLanguages                                     : 
-BiosManufacturer                                        : INSYD
-                                                          E 
-                                                          Corp.
+BiosManufacturer                                        : INSYDE Corp.
 BiosName                                                : V1.16
 BiosOtherTargetOS                                       : 
 BiosPrimaryBIOS                                         : True
-BiosReleaseDate                                         : 25/03
-                                                          /2024
-                                                           00:0
-                                                          0:00
-BiosSeralNumber                                         : NHQLU
-                                                          EB00D
-                                                          4120B
-                                                          29876
-                                                          00
+BiosReleaseDate                                         : 25/03/2024 00:00:00
+BiosSeralNumber                                         : NHQLUEB00D4120B2987600
 BiosSMBIOSBIOSVersion                                   : V1.16
 BiosSMBIOSMajorVersion                                  : 3
 BiosSMBIOSMinorVersion                                  : 4
 BiosSMBIOSPresent                                       : True
-BiosSoftwareElementState                                : Runni
-                                                          ng
+BiosSoftwareElementState                                : Running
 BiosStatus                                              : OK
 BiosSystemBiosMajorVersion                              : 1
 BiosSystemBiosMinorVersion                              : 16
 BiosTargetOperatingSystem                               : 0
-BiosVersion                                             : ACRSY
-                                                          S - 2
-CsAdminPasswordStatus                                   : Unkno
-                                                          wn
+BiosVersion                                             : ACRSYS - 2
+CsAdminPasswordStatus                                   : Unknown
 CsAutomaticManagedPagefile                              : True
 CsAutomaticResetBootOption                              : True
 CsAutomaticResetCapability                              : True
@@ -102,217 +55,82 @@ CsBootOptionOnLimit                                     :
 CsBootOptionOnWatchDog                                  : 
 CsBootROMSupported                                      : True
 CsBootStatus                                            : 
-CsBootupState                                           : Norma
-                                                          l 
-                                                          boot
-CsCaption                                               : IVAN_
-                                                          PREDA
-                                                          TOR
+CsBootupState                                           : Normal boot
+CsCaption                                               : IVAN_PREDATOR
 CsChassisBootupState                                    : Safe
 CsChassisSKUNumber                                      : 
 CsCurrentTimeZone                                       : 0
 CsDaylightInEffect                                      : False
-CsDescription                                           : AT/AT
-                                                           COMP
-                                                          ATIBL
-                                                          E
-CsDNSHostName                                           : Ivan_
-                                                          Preda
-                                                          tor
-CsDomain                                                : WORKG
-                                                          ROUP
-CsDomainRole                                            : Stand
-                                                          alone
-                                                          Works
-                                                          tatio
-                                                          n
+CsDescription                                           : AT/AT COMPATIBLE
+CsDNSHostName                                           : Ivan_Predator
+CsDomain                                                : WORKGROUP
+CsDomainRole                                            : StandaloneWorkstation
 CsEnableDaylightSavingsTime                             : True
-CsFrontPanelResetStatus                                 : Unkno
-                                                          wn
+CsFrontPanelResetStatus                                 : Unknown
 CsHypervisorPresent                                     : True
 CsInfraredSupported                                     : False
 CsInitialLoadInfo                                       : 
 CsInstallDate                                           : 
-CsKeyboardPasswordStatus                                : Unkno
-                                                          wn
+CsKeyboardPasswordStatus                                : Unknown
 CsLastLoadInfo                                          : 
 CsManufacturer                                          : Acer
-CsModel                                                 : Preda
-                                                          tor P
-                                                          HN16-
-                                                          71
-CsName                                                  : IVAN_
-                                                          PREDA
-                                                          TOR
-CsNetworkAdapters                                       : {Ethe
-                                                          rnet,
-                                                           Wi-F
-                                                          i, Li
-                                                          gação
-                                                           de 
-                                                          Rede 
-                                                          Bluet
-                                                          ooth,
-                                                           Open
-                                                          VPN 
-                                                          Data 
-                                                          Chann
-                                                          el Of
-                                                          fload
-                                                           for 
-                                                          Surfs
-                                                          hark.
-                                                          ..}
+CsModel                                                 : Predator PHN16-71
+CsName                                                  : IVAN_PREDATOR
+CsNetworkAdapters                                       : {Ethernet, Wi-Fi, Ligação de Rede Bluetooth, 
+                                                          OpenVPN Data Channel Offload for Surfshark...}
 CsNetworkServerModeEnabled                              : True
 CsNumberOfLogicalProcessors                             : 32
 CsNumberOfProcessors                                    : 1
-CsProcessors                                            : {13th
-                                                           Gen 
-                                                          Intel
-                                                          (R) C
-                                                          ore(T
-                                                          M) i9
-                                                          -1390
-                                                          0HX}
-CsOEMStringArray                                        : {Acer
-                                                           Syst
-                                                          em,  
-                                                               
-                                                               
-                                                               
-                                                               
-                                                               
-                                                               
-                                                               
-                                                               
-                                                               
-                                                              
-                                                          , Oem
-                                                          Strin
-                                                          g3, O
-                                                          emStr
-                                                          ing4.
-                                                          ..}
+CsProcessors                                            : {13th Gen Intel(R) Core(TM) i9-13900HX}
+CsOEMStringArray                                        : {Acer System,                                 
+                                                                            , OemString3, OemString4...}
 CsPartOfDomain                                          : False
 CsPauseAfterReset                                       : -1
-CsPCSystemType                                          : Mobil
-                                                          e
-CsPCSystemTypeEx                                        : Mobil
-                                                          e
+CsPCSystemType                                          : Mobile
+CsPCSystemTypeEx                                        : Mobile
 CsPowerManagementCapabilities                           : 
 CsPowerManagementSupported                              : 
-CsPowerOnPasswordStatus                                 : Unkno
-                                                          wn
-CsPowerState                                            : Unkno
-                                                          wn
+CsPowerOnPasswordStatus                                 : Unknown
+CsPowerState                                            : Unknown
 CsPowerSupplyState                                      : Safe
 CsPrimaryOwnerContact                                   : 
-CsPrimaryOwnerName                                      : ivan.
-                                                          almei
-                                                          da197
-                                                          9@gma
-                                                          il.co
-                                                          m
+CsPrimaryOwnerName                                      : ivan.almeida1979@gmail.com
 CsResetCapability                                       : Other
 CsResetCount                                            : -1
 CsResetLimit                                            : -1
-CsRoles                                                 : {LM_W
-                                                          orkst
-                                                          ation
-                                                          , LM_
-                                                          Serve
-                                                          r, 
-                                                          NT}
+CsRoles                                                 : {LM_Workstation, LM_Server, NT}
 CsStatus                                                : OK
 CsSupportContactDescription                             : 
-CsSystemFamily                                          : Preda
-                                                          tor H
-                                                          elios
-                                                           Neo 
-                                                          16
-CsSystemSKUNumber                                       : 00000
-                                                          00000
-                                                          00000
-                                                          0
-CsSystemType                                            : x64-b
-                                                          ased 
-                                                          PC
+CsSystemFamily                                          : Predator Helios Neo 16
+CsSystemSKUNumber                                       : 0000000000000000
+CsSystemType                                            : x64-based PC
 CsThermalState                                          : Safe
-CsTotalPhysicalMemory                                   : 34065
-                                                          99782
-                                                          4
-CsPhyicallyInstalledMemory                              : 33554
-                                                          432
-CsUserName                                              : Ivan_
-                                                          Preda
-                                                          tor\i
-                                                          vana
-CsWakeUpType                                            : Power
-                                                          Switc
-                                                          h
-CsWorkgroup                                             : WORKG
-                                                          ROUP
-OsName                                                  : Micro
-                                                          soft 
-                                                          Windo
-                                                          ws 
-                                                          11 
-                                                          Home
+CsTotalPhysicalMemory                                   : 34065997824
+CsPhyicallyInstalledMemory                              : 33554432
+CsUserName                                              : Ivan_Predator\ivana
+CsWakeUpType                                            : PowerSwitch
+CsWorkgroup                                             : WORKGROUP
+OsName                                                  : Microsoft Windows 11 Home
 OsType                                                  : WINNT
-OsOperatingSystemSKU                                    : Windo
-                                                          wsHom
-                                                          e
-OsVersion                                               : 10.0.
-                                                          26200
+OsOperatingSystemSKU                                    : WindowsHome
+OsVersion                                               : 10.0.26200
 OsCSDVersion                                            : 
 OsBuildNumber                                           : 26200
-OsHotFixes                                              : {KB50
-                                                          66128
-                                                          , KB5
-                                                          05057
-                                                          5, KB
-                                                          50541
-                                                          56, K
-                                                          B5059
-                                                          093..
-                                                          .}
-OsBootDevice                                            : \Devi
-                                                          ce\Ha
-                                                          rddis
-                                                          kVolu
-                                                          me1
-OsSystemDevice                                          : \Devi
-                                                          ce\Ha
-                                                          rddis
-                                                          kVolu
-                                                          me3
-OsSystemDirectory                                       : C:\WI
-                                                          NDOWS
-                                                          \syst
-                                                          em32
+OsHotFixes                                              : {KB5066128, KB5050575, KB5054156, 
+                                                          KB5059093...}
+OsBootDevice                                            : \Device\HarddiskVolume1
+OsSystemDevice                                          : \Device\HarddiskVolume3
+OsSystemDirectory                                       : C:\WINDOWS\system32
 OsSystemDrive                                           : C:
-OsWindowsDirectory                                      : C:\WI
-                                                          NDOWS
+OsWindowsDirectory                                      : C:\WINDOWS
 OsCountryCode                                           : 351
 OsCurrentTimeZone                                       : 0
 OsLocaleID                                              : 0816
 OsLocale                                                : pt-PT
-OsLocalDateTime                                         : 05/02
-                                                          /2026
-                                                           11:5
-                                                          7:52
-OsLastBootUpTime                                        : 05/02
-                                                          /2026
-                                                           08:5
-                                                          9:44
-OsUptime                                                : 02:58
-                                                          :07.9
-                                                          80290
-                                                          8
-OsBuildType                                             : Multi
-                                                          proce
-                                                          ssor 
-                                                          Free
+OsLocalDateTime                                         : 05/02/2026 12:01:25
+OsLastBootUpTime                                        : 05/02/2026 08:59:44
+OsUptime                                                : 03:01:40.8887666
+OsBuildType                                             : Multiprocessor Free
 OsCodeSet                                               : 1252
 OsDataExecutionPreventionAvailable                      : True
 OsDataExecutionPrevention32BitApplications              : True
@@ -321,154 +139,58 @@ OsDataExecutionPreventionSupportPolicy                  : OptIn
 OsDebug                                                 : False
 OsDistributed                                           : False
 OsEncryptionLevel                                       : 256
-OsForegroundApplicationBoost                            : Maxim
-                                                          um
-OsTotalVisibleMemorySize                                : 33267
-                                                          576
-OsFreePhysicalMemory                                    : 18504
-                                                          860
-OsTotalVirtualMemorySize                                : 35364
-                                                          728
-OsFreeVirtualMemory                                     : 14734
-                                                          960
-OsInUseVirtualMemory                                    : 20629
-                                                          768
+OsForegroundApplicationBoost                            : Maximum
+OsTotalVisibleMemorySize                                : 33267576
+OsFreePhysicalMemory                                    : 18443956
+OsTotalVirtualMemorySize                                : 35364728
+OsFreeVirtualMemory                                     : 14684956
+OsInUseVirtualMemory                                    : 20679772
 OsTotalSwapSpaceSize                                    : 
-OsSizeStoredInPagingFiles                               : 20971
-                                                          52
-OsFreeSpaceInPagingFiles                                : 19163
-                                                          64
-OsPagingFiles                                           : {C:\p
-                                                          agefi
-                                                          le.sy
-                                                          s}
-OsHardwareAbstractionLayer                              : 10.0.
-                                                          26100
-                                                          .1
-OsInstallDate                                           : 29/06
-                                                          /2025
-                                                           17:4
-                                                          6:33
-OsManufacturer                                          : Micro
-                                                          soft 
-                                                          Corpo
-                                                          ratio
-                                                          n
-OsMaxNumberOfProcesses                                  : 42949
-                                                          67295
-OsMaxProcessMemorySize                                  : 13743
-                                                          89533
-                                                          44
-OsMuiLanguages                                          : {pt-P
-                                                          T}
+OsSizeStoredInPagingFiles                               : 2097152
+OsFreeSpaceInPagingFiles                                : 1916364
+OsPagingFiles                                           : {C:\pagefile.sys}
+OsHardwareAbstractionLayer                              : 10.0.26100.1
+OsInstallDate                                           : 29/06/2025 17:46:33
+OsManufacturer                                          : Microsoft Corporation
+OsMaxNumberOfProcesses                                  : 4294967295
+OsMaxProcessMemorySize                                  : 137438953344
+OsMuiLanguages                                          : {pt-PT}
 OsNumberOfLicensedUsers                                 : 
-OsNumberOfProcesses                                     : 321
+OsNumberOfProcesses                                     : 322
 OsNumberOfUsers                                         : 2
 OsOrganization                                          : 
-OsArchitecture                                          : 64 
-                                                          bits
+OsArchitecture                                          : 64 bits
 OsLanguage                                              : pt-PT
-OsProductSuites                                         : {Term
-                                                          inalS
-                                                          ervic
-                                                          esSin
-                                                          gleSe
-                                                          ssion
-                                                          , Hom
-                                                          eEdit
-                                                          ion}
+OsProductSuites                                         : {TerminalServicesSingleSession, HomeEdition}
 OsOtherTypeDescription                                  : 
 OsPAEEnabled                                            : 
 OsPortableOperatingSystem                               : False
 OsPrimary                                               : True
-OsProductType                                           : WorkS
-                                                          tatio
-                                                          n
-OsRegisteredUser                                        : ivan.
-                                                          almei
-                                                          da197
-                                                          9@gma
-                                                          il.co
-                                                          m
-OsSerialNumber                                          : 00325
-                                                          -9725
-                                                          0-042
-                                                          50-AA
-                                                          OEM
+OsProductType                                           : WorkStation
+OsRegisteredUser                                        : ivan.almeida1979@gmail.com
+OsSerialNumber                                          : 00325-97250-04250-AAOEM
 OsServicePackMajorVersion                               : 0
 OsServicePackMinorVersion                               : 0
 OsStatus                                                : OK
-OsSuites                                                : {Term
-                                                          inalS
-                                                          ervic
-                                                          es, T
-                                                          ermin
-                                                          alSer
-                                                          vices
-                                                          Singl
-                                                          eSess
-                                                          ion, 
-                                                          HomeE
-                                                          ditio
-                                                          n}
+OsSuites                                                : {TerminalServices, 
+                                                          TerminalServicesSingleSession, HomeEdition}
 OsServerLevel                                           : 
 KeyboardLayout                                          : pt-PT
-TimeZone                                                : (UTC+
-                                                          00:00
-                                                          ) Dub
-                                                          lin, 
-                                                          Edimb
-                                                          urgo,
-                                                           Lisb
-                                                          oa, L
-                                                          ondre
-                                                          s
-LogonServer                                             : \\IVA
-                                                          N_PRE
-                                                          DATOR
-PowerPlatformRole                                       : Mobil
-                                                          e
+TimeZone                                                : (UTC+00:00) Dublin, Edimburgo, Lisboa, Londres
+LogonServer                                             : \\IVAN_PREDATOR
+PowerPlatformRole                                       : Mobile
 HyperVisorPresent                                       : True
 HyperVRequirementDataExecutionPreventionAvailable       : 
 HyperVRequirementSecondLevelAddressTranslation          : 
 HyperVRequirementVirtualizationFirmwareEnabled          : 
 HyperVRequirementVMMonitorModeExtensions                : 
 DeviceGuardSmartStatus                                  : Off
-DeviceGuardRequiredSecurityProperties                   : {Base
-                                                          Virtu
-                                                          aliza
-                                                          tionS
-                                                          uppor
-                                                          t}
-DeviceGuardAvailableSecurityProperties                  : {Base
-                                                          Virtu
-                                                          aliza
-                                                          tionS
-                                                          uppor
-                                                          t, Se
-                                                          cureB
-                                                          oot, 
-                                                          DMAPr
-                                                          otect
-                                                          ion, 
-                                                          5...}
-DeviceGuardSecurityServicesConfigured                   : {Hype
-                                                          rviso
-                                                          rEnfo
-                                                          rcedC
-                                                          odeIn
-                                                          tegri
-                                                          ty}
-DeviceGuardSecurityServicesRunning                      : {Hype
-                                                          rviso
-                                                          rEnfo
-                                                          rcedC
-                                                          odeIn
-                                                          tegri
-                                                          ty}
-DeviceGuardCodeIntegrityPolicyEnforcementStatus         : Enfor
-                                                          cemen
-                                                          tMode
+DeviceGuardRequiredSecurityProperties                   : {BaseVirtualizationSupport}
+DeviceGuardAvailableSecurityProperties                  : {BaseVirtualizationSupport, SecureBoot, 
+                                                          DMAProtection, 5...}
+DeviceGuardSecurityServicesConfigured                   : {HypervisorEnforcedCodeIntegrity}
+DeviceGuardSecurityServicesRunning                      : {HypervisorEnforcedCodeIntegrity}
+DeviceGuardCodeIntegrityPolicyEnforcementStatus         : EnforcementMode
 DeviceGuardUserModeCodeIntegrityPolicyEnforcementStatus : Off
 
 
@@ -590,7 +312,7 @@ D i s t r i b u i þ Ò o   P r e d e f i n i d a :   U b u n t u - 2 2 . 0 4 
 
 LoadPercentage
 --------------
-            17
+            13
 
 
 
@@ -599,7 +321,7 @@ LoadPercentage
  
 FreePhysicalMemory TotalVisibleMemorySize
 ------------------ ----------------------
-          18537100               33267576
+          18482536               33267576
 
 
 
@@ -608,7 +330,7 @@ FreePhysicalMemory TotalVisibleMemorySize
  
 DeviceID    FreeSpace          Size
 --------    ---------          ----
-C:       708273242112 1023234011136
+C:       708171366400 1023234011136
 
 
 
