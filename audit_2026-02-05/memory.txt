@@ -1,0 +1,5 @@
+
+FreePhysicalMemory TotalVisibleMemorySize
+------------------ ----------------------
+          16145380               33267576
+

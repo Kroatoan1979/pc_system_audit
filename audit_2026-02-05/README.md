@@ -1,5 +1,6 @@
+# PC System Audit - 2026-02-05
 
-===== Hardware (TXT) =====
+## Hardware
 
 
 WindowsBuildLabEx                                       : 26100.1.amd64fre.ge_release.240331-1435
@@ -122,9 +123,9 @@ OsCountryCode                                           : 351
 OsCurrentTimeZone                                       : 0
 OsLocaleID                                              : 0816
 OsLocale                                                : pt-PT
-OsLocalDateTime                                         : 05/02/2026 12:40:05
+OsLocalDateTime                                         : 05/02/2026 12:56:18
 OsLastBootUpTime                                        : 05/02/2026 08:59:44
-OsUptime                                                : 03:40:20.8368062
+OsUptime                                                : 03:56:33.9000822
 OsBuildType                                             : Multiprocessor Free
 OsCodeSet                                               : 1252
 OsDataExecutionPreventionAvailable                      : True
@@ -136,13 +137,13 @@ OsDistributed                                           : False
 OsEncryptionLevel                                       : 256
 OsForegroundApplicationBoost                            : Maximum
 OsTotalVisibleMemorySize                                : 33267576
-OsFreePhysicalMemory                                    : 16526568
+OsFreePhysicalMemory                                    : 16666900
 OsTotalVirtualMemorySize                                : 35364728
-OsFreeVirtualMemory                                     : 13249700
-OsInUseVirtualMemory                                    : 22115028
+OsFreeVirtualMemory                                     : 13272896
+OsInUseVirtualMemory                                    : 22091832
 OsTotalSwapSpaceSize                                    : 
 OsSizeStoredInPagingFiles                               : 2097152
-OsFreeSpaceInPagingFiles                                : 1940160
+OsFreeSpaceInPagingFiles                                : 1925708
 OsPagingFiles                                           : {C:\pagefile.sys}
 OsHardwareAbstractionLayer                              : 10.0.26100.1
 OsInstallDate                                           : 29/06/2025 17:46:33
@@ -151,7 +152,7 @@ OsMaxNumberOfProcesses                                  : 4294967295
 OsMaxProcessMemorySize                                  : 137438953344
 OsMuiLanguages                                          : {pt-PT}
 OsNumberOfLicensedUsers                                 : 
-OsNumberOfProcesses                                     : 342
+OsNumberOfProcesses                                     : 338
 OsNumberOfUsers                                         : 2
 OsOrganization                                          : 
 OsArchitecture                                          : 64 bits
@@ -187,7 +188,7 @@ DeviceGuardCodeIntegrityPolicyEnforcementStatus         :
 DeviceGuardUserModeCodeIntegrityPolicyEnforcementStatus : 
 
 
-===== Sistema Operativo (TXT) =====
+## Sistema Operativo
 
 
 SystemDirectory     Organization BuildNumber RegisteredUser             SerialNumber            Version
@@ -195,7 +196,7 @@ SystemDirectory     Organization BuildNumber RegisteredUser             SerialNu
 C:\WINDOWS\system32              26200       ivan.almeida1979@gmail.com 00325-97250-04250-AAOEM 10.0.26200
 
 
-===== Software Instalado (TXT) =====
+## Software Instalado
 
 
 Name                                                           Version
@@ -274,20 +275,16 @@ vcpp_crt.redist.clickonce                                      14.44.35211
 Microsoft Windows Desktop Runtime - 8.0.17 (x64)               64.68.34385
 
 
-===== Ambiente de Desenvolvimento =====
+## Ambiente de Desenvolvimento
 
 === Python ===
 Python 3.14.3
-
 === Node.js ===
 v24.13.0
-
 === Git ===
 git version 2.50.0.windows.2
-
 === Docker ===
 Docker version 29.0.1, build eedd969
-
 === WSL ===
 D i s t r i b u i þ Ò o   P r e d e f i n i d a :   U b u n t u - 2 2 . 0 4 
  
@@ -296,27 +293,25 @@ D i s t r i b u i þ Ò o   P r e d e f i n i d a :   U b u n t u - 2 2 . 0 4 
  
 
 
-===== Performance =====
+## Performance
 
-=== CPU ===
+### CPU
 
 LoadPercentage
 --------------
-            19
+            18
 
 
-=== Memoria ===
+### Memória
 
 FreePhysicalMemory TotalVisibleMemorySize
 ------------------ ----------------------
-          16549008               33267576
+          16145380               33267576
 
 
-=== Disco ===
+### Disco
 
 DeviceID    FreeSpace          Size
 --------    ---------          ----
-C:       707742371840 1023234011136
-
-
+C:       707720867840 1023234011136
 
