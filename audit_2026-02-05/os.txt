@@ -1,6 +1,6 @@
 ﻿
-SystemDirectory     Organization BuildNumber RegisteredUser             SerialNumber            Version   
----------------     ------------ ----------- --------------             ------------            -------   
-C:\WINDOWS\system32              26200       ivan.almeida1979@gmail.com 00325-97250-04250-AAOEM 10.0.26200
+SystemDirectory     Organization BuildNumber RegisteredUser             SerialNumber            Version 
+---------------     ------------ ----------- --------------             ------------            ------- 
+C:\WINDOWS\system32              26200       ivan.almeida1979@gmail.com 00325-97250-04250-AAOEM 10.0....
 
 
