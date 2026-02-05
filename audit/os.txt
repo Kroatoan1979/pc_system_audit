@@ -1,0 +1,175 @@
+﻿
+
+WindowsBuildLabEx                          : 26100.1.amd64fre.ge_release.240331-1435
+WindowsCurrentVersion                      : 6.3
+WindowsEditionId                           : Core
+WindowsInstallationType                    : Client
+WindowsInstallDateFromRegistry             : 29/06/2025 16:46:33
+WindowsProductId                           : 00325-97250-04250-AAOEM
+WindowsProductName                         : Windows 10 Home
+WindowsRegisteredOrganization              : 
+WindowsRegisteredOwner                     : ivan.almeida1979@gmail.com
+WindowsSystemRoot                          : C:\WINDOWS
+WindowsVersion                             : 2009
+OSDisplayVersion                           : 25H2
+OsName                                     : Microsoft Windows 11 Home
+OsType                                     : WINNT
+OsOperatingSystemSKU                       : WindowsHome
+OsVersion                                  : 10.0.26200
+OsCSDVersion                               : 
+OsBuildNumber                              : 26200
+OsHotFixes                                 : {KB5066128, KB5050575, KB5054156, KB5059093...}
+OsBootDevice                               : \Device\HarddiskVolume1
+OsSystemDevice                             : \Device\HarddiskVolume3
+OsSystemDirectory                          : C:\WINDOWS\system32
+OsSystemDrive                              : C:
+OsWindowsDirectory                         : C:\WINDOWS
+OsCountryCode                              : 351
+OsCurrentTimeZone                          : 0
+OsLocaleID                                 : 0816
+OsLocale                                   : pt-PT
+OsLocalDateTime                            : 05/02/2026 10:35:53
+OsLastBootUpTime                           : 05/02/2026 08:59:44
+OsUptime                                   : 01:36:09.0073701
+OsBuildType                                : Multiprocessor Free
+OsCodeSet                                  : 1252
+OsDataExecutionPreventionAvailable         : True
+OsDataExecutionPrevention32BitApplications : True
+OsDataExecutionPreventionDrivers           : True
+OsDataExecutionPreventionSupportPolicy     : OptIn
+OsDebug                                    : False
+OsDistributed                              : False
+OsEncryptionLevel                          : 256
+OsForegroundApplicationBoost               : Maximum
+OsTotalVisibleMemorySize                   : 33267576
+OsFreePhysicalMemory                       : 17225264
+OsTotalVirtualMemorySize                   : 35364728
+OsFreeVirtualMemory                        : 15345572
+OsInUseVirtualMemory                       : 20019156
+OsTotalSwapSpaceSize                       : 
+OsSizeStoredInPagingFiles                  : 2097152
+OsFreeSpaceInPagingFiles                   : 1961848
+OsPagingFiles                              : {C:\pagefile.sys}
+OsHardwareAbstractionLayer                 : 10.0.26100.1
+OsInstallDate                              : 29/06/2025 17:46:33
+OsManufacturer                             : Microsoft Corporation
+OsMaxNumberOfProcesses                     : 4294967295
+OsMaxProcessMemorySize                     : 137438953344
+OsMuiLanguages                             : {pt-PT}
+OsNumberOfLicensedUsers                    : 
+OsNumberOfProcesses                        : 324
+OsNumberOfUsers                            : 2
+OsOrganization                             : 
+OsArchitecture                             : 64 bits
+OsLanguage                                 : pt-PT
+OsProductSuites                            : {TerminalServicesSingleSession, HomeEdition}
+OsOtherTypeDescription                     : 
+OsPAEEnabled                               : 
+OsPortableOperatingSystem                  : False
+OsPrimary                                  : True
+OsProductType                              : WorkStation
+OsRegisteredUser                           : ivan.almeida1979@gmail.com
+OsSerialNumber                             : 00325-97250-04250-AAOEM
+OsServicePackMajorVersion                  : 0
+OsServicePackMinorVersion                  : 0
+OsStatus                                   : OK
+OsSuites                                   : {TerminalServices, TerminalServicesSingleSession, 
+                                             HomeEdition}
+OsServerLevel                              : 
+BiosCharacteristics                        : {7, 11, 12, 15...}
+BiosBIOSVersion                            : {ACRSYS - 2, V1.16, INSYDE Corp. - 54445116}
+BiosBuildNumber                            : 
+BiosCaption                                : V1.16
+BiosCodeSet                                : 
+BiosCurrentLanguage                        : 
+BiosDescription                            : V1.16
+BiosEmbeddedControllerMajorVersion         : 1
+BiosEmbeddedControllerMinorVersion         : 5
+BiosFirmwareType                           : Uefi
+BiosIdentificationCode                     : 
+BiosInstallableLanguages                   : 
+BiosInstallDate                            : 
+BiosLanguageEdition                        : 
+BiosListOfLanguages                        : 
+BiosManufacturer                           : INSYDE Corp.
+BiosName                                   : V1.16
+BiosOtherTargetOS                          : 
+BiosPrimaryBIOS                            : True
+BiosReleaseDate                            : 25/03/2024 00:00:00
+BiosSeralNumber                            : NHQLUEB00D4120B2987600
+BiosSMBIOSBIOSVersion                      : V1.16
+BiosSMBIOSMajorVersion                     : 3
+BiosSMBIOSMinorVersion                     : 4
+BiosSMBIOSPresent                          : True
+BiosSoftwareElementState                   : Running
+BiosStatus                                 : OK
+BiosSystemBiosMajorVersion                 : 1
+BiosSystemBiosMinorVersion                 : 16
+BiosTargetOperatingSystem                  : 0
+BiosVersion                                : ACRSYS - 2
+CsAdminPasswordStatus                      : Unknown
+CsAutomaticManagedPagefile                 : True
+CsAutomaticResetBootOption                 : True
+CsAutomaticResetCapability                 : True
+CsBootOptionOnLimit                        : 
+CsBootOptionOnWatchDog                     : 
+CsBootROMSupported                         : True
+CsBootStatus                               : 
+CsBootupState                              : Normal boot
+CsCaption                                  : IVAN_PREDATOR
+CsChassisBootupState                       : Safe
+CsChassisSKUNumber                         : 
+CsCurrentTimeZone                          : 0
+CsDaylightInEffect                         : False
+CsDescription                              : AT/AT COMPATIBLE
+CsDNSHostName                              : Ivan_Predator
+CsDomain                                   : WORKGROUP
+CsDomainRole                               : StandaloneWorkstation
+CsEnableDaylightSavingsTime                : True
+CsFrontPanelResetStatus                    : Unknown
+CsHypervisorPresent                        : True
+CsInfraredSupported                        : False
+CsInitialLoadInfo                          : 
+CsInstallDate                              : 
+CsKeyboardPasswordStatus                   : Unknown
+CsLastLoadInfo                             : 
+CsManufacturer                             : Acer
+CsModel                                    : Predator PHN16-71
+CsName                                     : IVAN_PREDATOR
+CsNetworkAdapters                          : {Ethernet, Wi-Fi, Ligação de Rede Bluetooth, OpenVPN Data 
+                                             Channel Offload for Surfshark...}
+CsNetworkServerModeEnabled                 : True
+CsNumberOfLogicalProcessors                : 32
+CsNumberOfProcessors                       : 1
+CsProcessors                               : {13th Gen Intel(R) Core(TM) i9-13900HX}
+CsOEMStringArray                           : {Acer System,                                              
+                                                  , OemString3, OemString4...}
+CsPartOfDomain                             : False
+CsPauseAfterReset                          : -1
+CsPCSystemType                             : Mobile
+CsPCSystemTypeEx                           : Mobile
+CsPowerManagementCapabilities              : 
+CsPowerManagementSupported                 : 
+CsPowerOnPasswordStatus                    : Unknown
+CsPowerState                               : Unknown
+CsPowerSupplyState                         : Safe
+CsPrimaryOwnerContact                      : 
+CsPrimaryOwnerName                         : ivan.almeida1979@gmail.com
+CsResetCapability                          : Other
+CsResetCount                               : -1
+CsResetLimit                               : -1
+CsRoles                                    : {LM_Workstation, LM_Server, NT}
+CsStatus                                   : OK
+CsSupportContactDescription                : 
+CsSystemFamily                             : Predator Helios Neo 16
+CsSystemSKUNumber                          : 0000000000000000
+CsSystemType                               : x64-based PC
+CsThermalState                             : Safe
+CsTotalPhysicalMemory                      : 34065997824
+CsPhyicallyInstalledMemory                 : 33554432
+CsUserName                                 : Ivan_Predator\ivana
+CsWakeUpType                               : PowerSwitch
+CsWorkgroup                                : WORKGROUP
+
+
+

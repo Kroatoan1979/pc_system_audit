@@ -1,0 +1,424 @@
+﻿
+
+WindowsBuildLabEx                                       : 26100.1.amd64fre.ge_release.240331-1435
+WindowsCurrentVersion                                   : 6.3
+WindowsEditionId                                        : Core
+WindowsInstallationType                                 : Client
+WindowsInstallDateFromRegistry                          : 29/06/2025 16:46:33
+WindowsProductId                                        : 00325-97250-04250-AAOEM
+WindowsProductName                                      : Windows 10 Home
+WindowsRegisteredOrganization                           : 
+WindowsRegisteredOwner                                  : ivan.almeida1979@gmail.com
+WindowsSystemRoot                                       : C:\WINDOWS
+WindowsVersion                                          : 2009
+OSDisplayVersion                                        : 25H2
+BiosCharacteristics                                     : {7, 11, 12, 15...}
+BiosBIOSVersion                                         : {ACRSYS - 2, V1.16, INSYDE Corp. - 54445116}
+BiosBuildNumber                                         : 
+BiosCaption                                             : V1.16
+BiosCodeSet                                             : 
+BiosCurrentLanguage                                     : 
+BiosDescription                                         : V1.16
+BiosEmbeddedControllerMajorVersion                      : 1
+BiosEmbeddedControllerMinorVersion                      : 5
+BiosFirmwareType                                        : Uefi
+BiosIdentificationCode                                  : 
+BiosInstallableLanguages                                : 
+BiosInstallDate                                         : 
+BiosLanguageEdition                                     : 
+BiosListOfLanguages                                     : 
+BiosManufacturer                                        : INSYDE Corp.
+BiosName                                                : V1.16
+BiosOtherTargetOS                                       : 
+BiosPrimaryBIOS                                         : True
+BiosReleaseDate                                         : 25/03/2024 00:00:00
+BiosSeralNumber                                         : NHQLUEB00D4120B2987600
+BiosSMBIOSBIOSVersion                                   : V1.16
+BiosSMBIOSMajorVersion                                  : 3
+BiosSMBIOSMinorVersion                                  : 4
+BiosSMBIOSPresent                                       : True
+BiosSoftwareElementState                                : Running
+BiosStatus                                              : OK
+BiosSystemBiosMajorVersion                              : 1
+BiosSystemBiosMinorVersion                              : 16
+BiosTargetOperatingSystem                               : 0
+BiosVersion                                             : ACRSYS - 2
+CsAdminPasswordStatus                                   : Unknown
+CsAutomaticManagedPagefile                              : True
+CsAutomaticResetBootOption                              : True
+CsAutomaticResetCapability                              : True
+CsBootOptionOnLimit                                     : 
+CsBootOptionOnWatchDog                                  : 
+CsBootROMSupported                                      : True
+CsBootStatus                                            : 
+CsBootupState                                           : Normal boot
+CsCaption                                               : IVAN_PREDATOR
+CsChassisBootupState                                    : Safe
+CsChassisSKUNumber                                      : 
+CsCurrentTimeZone                                       : 0
+CsDaylightInEffect                                      : False
+CsDescription                                           : AT/AT COMPATIBLE
+CsDNSHostName                                           : Ivan_Predator
+CsDomain                                                : WORKGROUP
+CsDomainRole                                            : StandaloneWorkstation
+CsEnableDaylightSavingsTime                             : True
+CsFrontPanelResetStatus                                 : Unknown
+CsHypervisorPresent                                     : True
+CsInfraredSupported                                     : False
+CsInitialLoadInfo                                       : 
+CsInstallDate                                           : 
+CsKeyboardPasswordStatus                                : Unknown
+CsLastLoadInfo                                          : 
+CsManufacturer                                          : Acer
+CsModel                                                 : Predator PHN16-71
+CsName                                                  : IVAN_PREDATOR
+CsNetworkAdapters                                       : {Ethernet, Wi-Fi, Ligação de Rede Bluetooth, 
+                                                          OpenVPN Data Channel Offload for Surfshark...}
+CsNetworkServerModeEnabled                              : True
+CsNumberOfLogicalProcessors                             : 32
+CsNumberOfProcessors                                    : 1
+CsProcessors                                            : {13th Gen Intel(R) Core(TM) i9-13900HX}
+CsOEMStringArray                                        : {Acer System,                                 
+                                                                            , OemString3, OemString4...}
+CsPartOfDomain                                          : False
+CsPauseAfterReset                                       : -1
+CsPCSystemType                                          : Mobile
+CsPCSystemTypeEx                                        : Mobile
+CsPowerManagementCapabilities                           : 
+CsPowerManagementSupported                              : 
+CsPowerOnPasswordStatus                                 : Unknown
+CsPowerState                                            : Unknown
+CsPowerSupplyState                                      : Safe
+CsPrimaryOwnerContact                                   : 
+CsPrimaryOwnerName                                      : ivan.almeida1979@gmail.com
+CsResetCapability                                       : Other
+CsResetCount                                            : -1
+CsResetLimit                                            : -1
+CsRoles                                                 : {LM_Workstation, LM_Server, NT}
+CsStatus                                                : OK
+CsSupportContactDescription                             : 
+CsSystemFamily                                          : Predator Helios Neo 16
+CsSystemSKUNumber                                       : 0000000000000000
+CsSystemType                                            : x64-based PC
+CsThermalState                                          : Safe
+CsTotalPhysicalMemory                                   : 34065997824
+CsPhyicallyInstalledMemory                              : 33554432
+CsUserName                                              : Ivan_Predator\ivana
+CsWakeUpType                                            : PowerSwitch
+CsWorkgroup                                             : WORKGROUP
+OsName                                                  : Microsoft Windows 11 Home
+OsType                                                  : WINNT
+OsOperatingSystemSKU                                    : WindowsHome
+OsVersion                                               : 10.0.26200
+OsCSDVersion                                            : 
+OsBuildNumber                                           : 26200
+OsHotFixes                                              : {KB5066128, KB5050575, KB5054156, 
+                                                          KB5059093...}
+OsBootDevice                                            : \Device\HarddiskVolume1
+OsSystemDevice                                          : \Device\HarddiskVolume3
+OsSystemDirectory                                       : C:\WINDOWS\system32
+OsSystemDrive                                           : C:
+OsWindowsDirectory                                      : C:\WINDOWS
+OsCountryCode                                           : 351
+OsCurrentTimeZone                                       : 0
+OsLocaleID                                              : 0816
+OsLocale                                                : pt-PT
+OsLocalDateTime                                         : 05/02/2026 10:27:47
+OsLastBootUpTime                                        : 05/02/2026 08:59:44
+OsUptime                                                : 01:28:03.2810588
+OsBuildType                                             : Multiprocessor Free
+OsCodeSet                                               : 1252
+OsDataExecutionPreventionAvailable                      : True
+OsDataExecutionPrevention32BitApplications              : True
+OsDataExecutionPreventionDrivers                        : True
+OsDataExecutionPreventionSupportPolicy                  : OptIn
+OsDebug                                                 : False
+OsDistributed                                           : False
+OsEncryptionLevel                                       : 256
+OsForegroundApplicationBoost                            : Maximum
+OsTotalVisibleMemorySize                                : 33267576
+OsFreePhysicalMemory                                    : 17539108
+OsTotalVirtualMemorySize                                : 35364728
+OsFreeVirtualMemory                                     : 15677076
+OsInUseVirtualMemory                                    : 19687652
+OsTotalSwapSpaceSize                                    : 
+OsSizeStoredInPagingFiles                               : 2097152
+OsFreeSpaceInPagingFiles                                : 1961848
+OsPagingFiles                                           : {C:\pagefile.sys}
+OsHardwareAbstractionLayer                              : 10.0.26100.1
+OsInstallDate                                           : 29/06/2025 17:46:33
+OsManufacturer                                          : Microsoft Corporation
+OsMaxNumberOfProcesses                                  : 4294967295
+OsMaxProcessMemorySize                                  : 137438953344
+OsMuiLanguages                                          : {pt-PT}
+OsNumberOfLicensedUsers                                 : 
+OsNumberOfProcesses                                     : 326
+OsNumberOfUsers                                         : 2
+OsOrganization                                          : 
+OsArchitecture                                          : 64 bits
+OsLanguage                                              : pt-PT
+OsProductSuites                                         : {TerminalServicesSingleSession, HomeEdition}
+OsOtherTypeDescription                                  : 
+OsPAEEnabled                                            : 
+OsPortableOperatingSystem                               : False
+OsPrimary                                               : True
+OsProductType                                           : WorkStation
+OsRegisteredUser                                        : ivan.almeida1979@gmail.com
+OsSerialNumber                                          : 00325-97250-04250-AAOEM
+OsServicePackMajorVersion                               : 0
+OsServicePackMinorVersion                               : 0
+OsStatus                                                : OK
+OsSuites                                                : {TerminalServices, 
+                                                          TerminalServicesSingleSession, HomeEdition}
+OsServerLevel                                           : 
+KeyboardLayout                                          : pt-PT
+TimeZone                                                : (UTC+00:00) Dublin, Edimburgo, Lisboa, Londres
+LogonServer                                             : \\IVAN_PREDATOR
+PowerPlatformRole                                       : Mobile
+HyperVisorPresent                                       : True
+HyperVRequirementDataExecutionPreventionAvailable       : 
+HyperVRequirementSecondLevelAddressTranslation          : 
+HyperVRequirementVirtualizationFirmwareEnabled          : 
+HyperVRequirementVMMonitorModeExtensions                : 
+DeviceGuardSmartStatus                                  : Off
+DeviceGuardRequiredSecurityProperties                   : {BaseVirtualizationSupport}
+DeviceGuardAvailableSecurityProperties                  : {BaseVirtualizationSupport, SecureBoot, 
+                                                          DMAProtection, 5...}
+DeviceGuardSecurityServicesConfigured                   : {HypervisorEnforcedCodeIntegrity}
+DeviceGuardSecurityServicesRunning                      : {HypervisorEnforcedCodeIntegrity}
+DeviceGuardCodeIntegrityPolicyEnforcementStatus         : EnforcementMode
+DeviceGuardUserModeCodeIntegrityPolicyEnforcementStatus : Off
+
+
+
+
+DeviceID Name                                  Caption                               MaxClockSpeed Socke
+                                                                                                   tDesi
+                                                                                                   gnati
+                                                                                                   on   
+-------- ----                                  -------                               ------------- -----
+CPU0     13th Gen Intel(R) Core(TM) i9-13900HX Intel64 Family 6 Model 183 Stepping 1 2200          U3E1 
+
+
+
+
+Caption              : Memória Física
+Description          : Memória Física
+InstallDate          : 
+Name                 : Memória Física
+Status               : 
+CreationClassName    : Win32_PhysicalMemory
+Manufacturer         : SK Hynix
+Model                : 
+OtherIdentifyingInfo : 
+PartNumber           : HMCG78AGBSA095N     
+PoweredOn            : 
+SerialNumber         : 55ED5727
+SKU                  : 
+Tag                  : Physical Memory 0
+Version              : 
+HotSwappable         : 
+Removable            : 
+Replaceable          : 
+FormFactor           : 12
+BankLabel            : BANK 0
+Capacity             : 17179869184
+DataWidth            : 64
+InterleavePosition   : 1
+MemoryType           : 0
+PositionInRow        : 
+Speed                : 5600
+TotalWidth           : 64
+Attributes           : 1
+ConfiguredClockSpeed : 5600
+ConfiguredVoltage    : 1100
+DeviceLocator        : Controller0-ChannelA-DIMM0
+InterleaveDataDepth  : 1
+MaxVoltage           : 0
+MinVoltage           : 0
+SMBIOSMemoryType     : 34
+TypeDetail           : 128
+PSComputerName       : 
+
+Caption              : Memória Física
+Description          : Memória Física
+InstallDate          : 
+Name                 : Memória Física
+Status               : 
+CreationClassName    : Win32_PhysicalMemory
+Manufacturer         : SK Hynix
+Model                : 
+OtherIdentifyingInfo : 
+PartNumber           : HMCG78AGBSA095N     
+PoweredOn            : 
+SerialNumber         : 55ED55EF
+SKU                  : 
+Tag                  : Physical Memory 2
+Version              : 
+HotSwappable         : 
+Removable            : 
+Replaceable          : 
+FormFactor           : 12
+BankLabel            : BANK 0
+Capacity             : 17179869184
+DataWidth            : 64
+InterleavePosition   : 
+MemoryType           : 0
+PositionInRow        : 
+Speed                : 5600
+TotalWidth           : 64
+Attributes           : 1
+ConfiguredClockSpeed : 5600
+ConfiguredVoltage    : 1100
+DeviceLocator        : Controller1-ChannelA-DIMM0
+InterleaveDataDepth  : 
+MaxVoltage           : 0
+MinVoltage           : 0
+SMBIOSMemoryType     : 34
+TypeDetail           : 128
+PSComputerName       : 
+
+
+
+
+DeviceID           Caption                        Partitions Size          Model                        
+--------           -------                        ---------- ----          -----                        
+\\.\PHYSICALDRIVE0 NVMe Micron_3400_MTFDKBA1T0TFH 3          1024203640320 NVMe Micron_3400_MTFDKBA1T...
+
+
+
+
+Caption                      : NVIDIA GeForce RTX 4060 Laptop GPU
+Description                  : NVIDIA GeForce RTX 4060 Laptop GPU
+InstallDate                  : 
+Name                         : NVIDIA GeForce RTX 4060 Laptop GPU
+Status                       : OK
+Availability                 : 8
+ConfigManagerErrorCode       : 0
+ConfigManagerUserConfig      : False
+CreationClassName            : Win32_VideoController
+DeviceID                     : VideoController1
+ErrorCleared                 : 
+ErrorDescription             : 
+LastErrorCode                : 
+PNPDeviceID                  : PCI\VEN_10DE&DEV_28E0&SUBSYS_170F1025&REV_A1\4&194938E1&0&0008
+PowerManagementCapabilities  : 
+PowerManagementSupported     : 
+StatusInfo                   : 
+SystemCreationClassName      : Win32_ComputerSystem
+SystemName                   : IVAN_PREDATOR
+MaxNumberControlled          : 
+ProtocolSupported            : 
+TimeOfLastReset              : 
+AcceleratorCapabilities      : 
+CapabilityDescriptions       : 
+CurrentBitsPerPixel          : 
+CurrentHorizontalResolution  : 
+CurrentNumberOfColors        : 
+CurrentNumberOfColumns       : 
+CurrentNumberOfRows          : 
+CurrentRefreshRate           : 
+CurrentScanMode              : 
+CurrentVerticalResolution    : 
+MaxMemorySupported           : 
+MaxRefreshRate               : 
+MinRefreshRate               : 
+NumberOfVideoPages           : 
+VideoMemoryType              : 2
+VideoProcessor               : NVIDIA GeForce RTX 4060 Laptop GPU
+NumberOfColorPlanes          : 
+VideoArchitecture            : 5
+VideoMode                    : 
+AdapterCompatibility         : NVIDIA
+AdapterDACType               : Integrated RAMDAC
+AdapterRAM                   : 4293918720
+ColorTableEntries            : 
+DeviceSpecificPens           : 
+DitherType                   : 
+DriverDate                   : 12/06/2025 01:00:00
+DriverVersion                : 32.0.15.7680
+ICMIntent                    : 
+ICMMethod                    : 
+InfFilename                  : oem116.inf
+InfSection                   : Section116
+InstalledDisplayDrivers      : C:\WINDOWS\System32\DriverStore\FileRepository\nvaci.inf_amd64_62b88d4d2a
+                               245083\nvldumdx.dll,C:\WINDOWS\System32\DriverStore\FileRepository\nvaci.
+                               inf_amd64_62b88d4d2a245083\nvldumdx.dll,C:\WINDOWS\System32\DriverStore\F
+                               ileRepository\nvaci.inf_amd64_62b88d4d2a245083\nvldumdx.dll,C:\WINDOWS\Sy
+                               stem32\DriverStore\FileRepository\nvaci.inf_amd64_62b88d4d2a245083\nvldum
+                               dx.dll
+Monochrome                   : False
+ReservedSystemPaletteEntries : 
+SpecificationVersion         : 
+SystemPaletteEntries         : 
+VideoModeDescription         : 
+PSComputerName               : 
+
+Caption                      : Intel(R) UHD Graphics
+Description                  : Intel(R) UHD Graphics
+InstallDate                  : 
+Name                         : Intel(R) UHD Graphics
+Status                       : OK
+Availability                 : 3
+ConfigManagerErrorCode       : 0
+ConfigManagerUserConfig      : False
+CreationClassName            : Win32_VideoController
+DeviceID                     : VideoController2
+ErrorCleared                 : 
+ErrorDescription             : 
+LastErrorCode                : 
+PNPDeviceID                  : PCI\VEN_8086&DEV_A788&SUBSYS_170F1025&REV_04\3&11583659&0&10
+PowerManagementCapabilities  : 
+PowerManagementSupported     : 
+StatusInfo                   : 
+SystemCreationClassName      : Win32_ComputerSystem
+SystemName                   : IVAN_PREDATOR
+MaxNumberControlled          : 
+ProtocolSupported            : 
+TimeOfLastReset              : 
+AcceleratorCapabilities      : 
+CapabilityDescriptions       : 
+CurrentBitsPerPixel          : 32
+CurrentHorizontalResolution  : 2560
+CurrentNumberOfColors        : 4294967296
+CurrentNumberOfColumns       : 0
+CurrentNumberOfRows          : 0
+CurrentRefreshRate           : 165
+CurrentScanMode              : 4
+CurrentVerticalResolution    : 1600
+MaxMemorySupported           : 
+MaxRefreshRate               : 165
+MinRefreshRate               : 60
+NumberOfVideoPages           : 
+VideoMemoryType              : 2
+VideoProcessor               : Intel(R) RaptorLake-S Mobile Graphics Controller
+NumberOfColorPlanes          : 
+VideoArchitecture            : 5
+VideoMode                    : 
+AdapterCompatibility         : Intel Corporation
+AdapterDACType               : Internal
+AdapterRAM                   : 2147479552
+ColorTableEntries            : 
+DeviceSpecificPens           : 
+DitherType                   : 0
+DriverDate                   : 15/01/2026 00:00:00
+DriverVersion                : 32.0.101.7084
+ICMIntent                    : 
+ICMMethod                    : 
+InfFilename                  : oem41.inf
+InfSection                   : iRPLSD_w11_DS
+InstalledDisplayDrivers      : C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_437421e
+                               864cf094d\igdumdim64.dll,C:\WINDOWS\System32\DriverStore\FileRepository\i
+                               igd_dch.inf_amd64_437421e864cf094d\igd10iumd64.dll,C:\WINDOWS\System32\Dr
+                               iverStore\FileRepository\iigd_dch.inf_amd64_437421e864cf094d\igd10iumd64.
+                               dll,C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_437
+                               421e864cf094d\igd12umd64.dll
+Monochrome                   : False
+ReservedSystemPaletteEntries : 
+SpecificationVersion         : 
+SystemPaletteEntries         : 
+VideoModeDescription         : 2560 x 1600 x 4294967296 cores
+PSComputerName               : 
+
+
+

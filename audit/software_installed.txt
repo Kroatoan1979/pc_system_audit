@@ -1,0 +1,90 @@
+﻿
+DisplayName                                                    DisplayVersion     Publisher             
+-----------                                                    --------------     ---------             
+                                                                                                        
+Docker Desktop                                                 4.52.0             Docker Inc.           
+Git                                                            2.50.0.2           The Git Development...
+Intel(R) Graphics Software & Drivers                           1.0.1168.2         Intel(R) Corporation  
+Microsoft Visual Studio 2010 Tools for Office Runtime (x64)    10.0.60910         Microsoft Corporation 
+                                                                                  Microsoft Corporation 
+Notepad++ (64-bit x64)                                         8.8.8              Notepad++ Team        
+Microsoft 365 Apps para Pequenas e Médias Empresas - pt-pt     16.0.19628.20150   Microsoft Corporation 
+Microsoft OneDrive                                             26.002.0105.0001   Microsoft Corporation 
+METAL GEAR SOLID V: GROUND ZEROES                                                 KONAMI                
+The Elder Scrolls V: Skyrim Special Edition                                       Bethesda Game Studios 
+Surfshark                                                      6.4.0999           Surfshark             
+                                                                                                        
+Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.40664  12.0.40664         Microsoft Corporation 
+Microsoft Windows Desktop Runtime - 9.0.11 (x64)               72.44.42433        Microsoft Corporation 
+Microsoft .NET Runtime - 9.0.11 (x64)                          72.44.42384        Microsoft Corporation 
+Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219    10.0.40219         Microsoft Corporation 
+PowerToys (Preview)                                            0.97.0             Microsoft Corporation 
+oneAPI Level Zero                                              1.24.0             Intel                 
+Microsoft Visual C++ 2012 x64 Additional Runtime - 11.0.61030  11.0.61030         Microsoft Corporation 
+Python 3.14.3 Standard Library (64-bit)                        3.14.3150.0        Python Software Fou...
+Surfshark                                                      6.4.0999           Surfshark             
+Microsoft ASP.NET Core 8.0.22 Shared Framework (x64)           8.0.22.25528       Microsoft Corporation 
+Python 3.14.3 Core Interpreter (64-bit)                        3.14.3150.0        Python Software Fou...
+Microsoft Windows Desktop Runtime - 8.0.22 (x64)               64.88.42561        Microsoft Corporation 
+Logitech G HUB                                                 2026.1.828335      Logitech              
+Microsoft Visual C++ 2013 x64 Minimum Runtime - 12.0.40664     12.0.40664         Microsoft Corporation 
+Python 3.14.3 Tcl/Tk Support (64-bit)                          3.14.3150.0        Python Software Fou...
+Python 3.14.3 Documentation (64-bit)                           3.14.3150.0        Python Software Fou...
+Microsoft Visual C++ 2022 X64 Minimum Runtime - 14.50.35719    14.50.35719        Microsoft Corporation 
+Microsoft Windows Desktop Runtime - 8.0.17 (x64)               64.68.34385        Microsoft Corporation 
+Microsoft .NET Runtime - 8.0.17 (x64)                          64.68.34370        Microsoft Corporation 
+Python 3.14.3 Development Libraries (64-bit)                   3.14.3150.0        Python Software Fou...
+Microsoft Visual Studio Installer                              4.0.2168.39045     Microsoft Corporation 
+Intel® Graphics Software                                       25.40.1953.2       Intel Corporation     
+Microsoft .NET Host FX Resolver - 8.0.22 (x64)                 64.88.42551        Microsoft Corporation 
+Logi Options+                                                  1.98.823659        Logitech              
+Microsoft .NET Host - 8.0.22 (x64)                             64.88.42551        Microsoft Corporation 
+Intel(R) Computing Improvement Program                         2.4.11145          Intel Corporation     
+Office 16 Click-to-Run Licensing Component                     16.0.19029.20208   Microsoft Corporation 
+Office 16 Click-to-Run Extensibility Component                 16.0.19426.20170   Microsoft Corporation 
+PredatorSense Config                                           5.0.1463           ULIC Tek Inc.         
+Oracle VirtualBox 7.2.4                                        7.2.4              Oracle and/or its a...
+Python 3.14.3 Test Suite (64-bit)                              3.14.3150.0        Python Software Fou...
+Microsoft Teams Meeting Add-in for Microsoft Office            1.25.28902         Microsoft             
+Adobe Acrobat (64-bit)                                         25.001.21151       Adobe                 
+PredatorSense Prerequisites                                    5.0.1463           ULIC Tek Inc.         
+Microsoft Visual C++ 2022 X64 Additional Runtime - 14.50.35719 14.50.35719        Microsoft Corporation 
+Care Center Service                                            4.00.3058          Acer Incorporated     
+NVIDIA Controlador gráfico 576.80                              576.80             NVIDIA Corporation    
+NVIDIA App 11.0.4.159                                          11.0.4.159         NVIDIA Corporation    
+NVIDIA MessageBus 3 for NvApp                                  3.15               NVIDIA Corporation    
+NVIDIA Backend                                                 11.0.4.159         NVIDIA Corporation    
+NvCpl                                                          1.0                NVIDIA Corporation    
+                                                                                                        
+NVIDIA O software do sistema PhysX 9.23.1019                   9.23.1019          NVIDIA Corporation    
+NVIDIA FrameView SDK 1.5.10920.35420203                        1.5.10920.35420203 NVIDIA Corporation    
+NVIDIA O controlador de HD Audio 1.4.3.2                       1.4.3.2            NVIDIA Corporation    
+NVIDIA Install Application                                     2.1002.428.0       NVIDIA Corporation    
+NVIDIA Container                                               1.42               NVIDIA Corporation    
+NVIDIA AIUser Container                                        1.42               NVIDIA Corporation    
+NVIDIA LocalSystem Container                                   1.42               NVIDIA Corporation    
+NVIDIA Session Container                                       1.42               NVIDIA Corporation    
+NVIDIA User Container                                          1.42               NVIDIA Corporation    
+NVIDIA NvDLISR                                                 1.0                NVIDIA Corporation    
+NVIDIA Platform Controllers and Framework                      575.82             NVIDIA Corporation    
+NVIDIA Watchdog Plugin for NvContainer                         1.42               NVIDIA Corporation    
+NVIDIA Telemetry Client                                        19.4.23.0          NVIDIA Corporation    
+NVIDIA ShadowPlay 11.0.4.0                                     11.0.4.0           NVIDIA Corporation    
+NVIDIA Virtual Audio 4.65.0.3                                  4.65.0.3           NVIDIA Corporation    
+Python 3.14.3 Executables (64-bit)                             3.14.3150.0        Python Software Fou...
+Microsoft .NET Host FX Resolver - 8.0.17 (x64)                 64.68.34370        Microsoft Corporation 
+Microsoft .NET Runtime - 8.0.22 (x64)                          64.88.42551        Microsoft Corporation 
+Microsoft Visual Studio 2010 Tools for Office Runtime (x64)    10.0.60915         Microsoft Corporation 
+Microsoft Visual C++ 2012 x64 Minimum Runtime - 11.0.61030     11.0.61030         Microsoft Corporation 
+Microsoft .NET Host - 9.0.11 (x64)                             72.44.42384        Microsoft Corporation 
+Logi RightSightForWebcams 1.1.207                              1.1.207.0          Logitech              
+Python 3.14.3 pip Bootstrap (64-bit)                           3.14.3150.0        Python Software Fou...
+Python 3.14.3 Add to Path (64-bit)                             3.14.3150.0        Python Software Fou...
+Microsoft .NET Host FX Resolver - 9.0.11 (x64)                 72.44.42384        Microsoft Corporation 
+Intel® Graphics Software                                       25.40.1953.2       Intel Corporation     
+Node.js                                                        24.13.0            Node.js Foundation    
+Logi Plugin Service                                            6.2.6.1611         Logitech              
+Microsoft Visual C++ 2022 X64 Debug Runtime - 14.44.35211      14.44.35211        Microsoft Corporation 
+Windows Subsystem for Linux                                    2.5.9.0            Microsoft Corporation 
+
+
