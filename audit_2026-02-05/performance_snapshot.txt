@@ -2,20 +2,20 @@
 
 LoadPercentage
 --------------
-            17
+             2
 
 
 === Memoria ===
 
 FreePhysicalMemory TotalVisibleMemorySize
 ------------------ ----------------------
-          17008412               33267576
+          17022400               33267576
 
 
 === Disco ===
 
 DeviceID    FreeSpace          Size
 --------    ---------          ----
-C:       707786211328 1023234011136
+C:       707756003328 1023234011136
 
 

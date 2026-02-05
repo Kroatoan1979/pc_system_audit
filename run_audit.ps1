@@ -41,7 +41,7 @@ $hardwareTxt = Join-AuditPath "hardware.txt"
 $hardwareJson = Join-AuditPath "hardware.json"
 
 Get-ComputerInfo | Out-File -FilePath $hardwareTxt -Encoding utf8
-Get-ComputerInfo | ConvertTo-Json -Depth 4 | Out-File -FilePath $hardwareJson -Encoding utf8
+Get-ComputerInfo | ConvertTo-Json -Depth 10 | Out-File -FilePath $hardwareJson -Encoding utf8
 
 # ============================
 # 3. Recolha do Sistema Operativo
@@ -51,7 +51,7 @@ $osTxt = Join-AuditPath "os.txt"
 $osJson = Join-AuditPath "os.json"
 
 Get-CimInstance Win32_OperatingSystem | Out-File -FilePath $osTxt -Encoding utf8
-Get-CimInstance Win32_OperatingSystem | ConvertTo-Json -Depth 4 | Out-File -FilePath $osJson -Encoding utf8
+Get-CimInstance Win32_OperatingSystem | ConvertTo-Json -Depth 10 | Out-File -FilePath $osJson -Encoding utf8
 
 # ============================
 # 4. Software Instalado
@@ -82,7 +82,10 @@ git --version 2>$null | Out-String | Out-File -Append -FilePath $devEnvTxt -Enco
 docker --version 2>$null | Out-String | Out-File -Append -FilePath $devEnvTxt -Encoding utf8
 
 "=== WSL ===" | Out-File -Append -FilePath $devEnvTxt -Encoding utf8
-wsl --status 2>$null | Format-List | Out-String | Out-File -Append -FilePath $devEnvTxt -Encoding utf8
+wsl --status 2>$null |
+    Format-List |
+    Out-String |
+    Out-File -Append -FilePath $devEnvTxt -Encoding utf8
 
 # ============================
 # 6. Performance Snapshot
@@ -181,7 +184,7 @@ foreach ($line in $readmeContent) {
     }
 }
 
-$newReadme | Set-Content -Path $readmePath -Encoding utf8NoBOM
+[System.IO.File]::WriteAllLines($readmePath, $newReadme, (New-Object System.Text.UTF8Encoding($false)))
 
 # ============================
 # 9. Git add / commit / push automatico

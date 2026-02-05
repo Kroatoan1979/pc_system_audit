@@ -8,22 +8,285 @@
         "CimSuperClass": {
           "CimSuperClassName": null,
           "CimSuperClass": null,
-          "CimClassProperties": "Caption Description InstallDate Name Status",
-          "CimClassQualifiers": "Abstract = True Locale = 1033 UUID = \"{8502C517-5FBB-11D2-AAC1-006008C78BC7}\"",
-          "CimClassMethods": "",
-          "CimSystemProperties": "Microsoft.Management.Infrastructure.CimSystemProperties"
+          "CimClassProperties": [
+            {
+              "Name": "Caption",
+              "Value": null,
+              "CimType": 14,
+              "Flags": "Property, ReadOnly, NullValue",
+              "Qualifiers": [
+                {
+                  "Name": "MaxLen",
+                  "Value": 64,
+                  "CimType": 7,
+                  "Flags": "EnableOverride, ToSubclass"
+                },
+                {
+                  "Name": "read",
+                  "Value": true,
+                  "CimType": 1,
+                  "Flags": "EnableOverride, ToSubclass"
+                }
+              ],
+              "ReferenceClassName": null
+            },
+            {
+              "Name": "Description",
+              "Value": null,
+              "CimType": 14,
+              "Flags": "Property, ReadOnly, NullValue",
+              "Qualifiers": [
+                {
+                  "Name": "read",
+                  "Value": true,
+                  "CimType": 1,
+                  "Flags": "EnableOverride, ToSubclass"
+                }
+              ],
+              "ReferenceClassName": null
+            },
+            {
+              "Name": "InstallDate",
+              "Value": null,
+              "CimType": 13,
+              "Flags": "Property, ReadOnly, NullValue",
+              "Qualifiers": [
+                {
+                  "Name": "MappingStrings",
+                  "Value": [
+                    "MIF.DMTF|ComponentID|001.5"
+                  ],
+                  "CimType": 30,
+                  "Flags": "EnableOverride, ToSubclass"
+                },
+                {
+                  "Name": "read",
+                  "Value": true,
+                  "CimType": 1,
+                  "Flags": "EnableOverride, ToSubclass"
+                }
+              ],
+              "ReferenceClassName": null
+            },
+            {
+              "Name": "Name",
+              "Value": null,
+              "CimType": 14,
+              "Flags": "Property, ReadOnly, NullValue",
+              "Qualifiers": [
+                {
+                  "Name": "read",
+                  "Value": true,
+                  "CimType": 1,
+                  "Flags": "EnableOverride, ToSubclass"
+                }
+              ],
+              "ReferenceClassName": null
+            },
+            {
+              "Name": "Status",
+              "Value": null,
+              "CimType": 14,
+              "Flags": "Property, ReadOnly, NullValue",
+              "Qualifiers": [
+                {
+                  "Name": "MaxLen",
+                  "Value": 10,
+                  "CimType": 7,
+                  "Flags": "EnableOverride, ToSubclass"
+                },
+                {
+                  "Name": "read",
+                  "Value": true,
+                  "CimType": 1,
+                  "Flags": "EnableOverride, ToSubclass"
+                },
+                {
+                  "Name": "ValueMap",
+                  "Value": [
+                    "OK",
+                    "Error",
+                    "Degraded",
+                    "Unknown",
+                    "Pred Fail",
+                    "Starting",
+                    "Stopping",
+                    "Service",
+                    "Stressed",
+                    "NonRecover",
+                    "No Contact",
+                    "Lost Comm"
+                  ],
+                  "CimType": 30,
+                  "Flags": "EnableOverride, ToSubclass"
+                }
+              ],
+              "ReferenceClassName": null
+            }
+          ],
+          "CimClassQualifiers": [
+            {
+              "Name": "Abstract",
+              "Value": true,
+              "CimType": 1,
+              "Flags": "EnableOverride, Restricted"
+            },
+            {
+              "Name": "Locale",
+              "Value": 1033,
+              "CimType": 7,
+              "Flags": "EnableOverride, ToSubclass"
+            },
+            {
+              "Name": "UUID",
+              "Value": "{8502C517-5FBB-11D2-AAC1-006008C78BC7}",
+              "CimType": 14,
+              "Flags": "EnableOverride, ToSubclass"
+            }
+          ],
+          "CimClassMethods": [],
+          "CimSystemProperties": {
+            "Namespace": "ROOT/cimv2",
+            "ServerName": "IVAN_PREDATOR",
+            "ClassName": "CIM_ManagedSystemElement",
+            "Path": null
+          }
         },
         "CimClassProperties": [
-          "Caption",
-          "Description",
-          "InstallDate",
-          "Name",
-          "Status"
+          {
+            "Name": "Caption",
+            "Value": null,
+            "CimType": 14,
+            "Flags": "Property, ReadOnly, NullValue",
+            "Qualifiers": [
+              {
+                "Name": "MaxLen",
+                "Value": 64,
+                "CimType": 7,
+                "Flags": "EnableOverride, ToSubclass"
+              },
+              {
+                "Name": "read",
+                "Value": true,
+                "CimType": 1,
+                "Flags": "EnableOverride, ToSubclass"
+              }
+            ],
+            "ReferenceClassName": null
+          },
+          {
+            "Name": "Description",
+            "Value": null,
+            "CimType": 14,
+            "Flags": "Property, ReadOnly, NullValue",
+            "Qualifiers": [
+              {
+                "Name": "read",
+                "Value": true,
+                "CimType": 1,
+                "Flags": "EnableOverride, ToSubclass"
+              }
+            ],
+            "ReferenceClassName": null
+          },
+          {
+            "Name": "InstallDate",
+            "Value": null,
+            "CimType": 13,
+            "Flags": "Property, ReadOnly, NullValue",
+            "Qualifiers": [
+              {
+                "Name": "MappingStrings",
+                "Value": [
+                  "MIF.DMTF|ComponentID|001.5"
+                ],
+                "CimType": 30,
+                "Flags": "EnableOverride, ToSubclass"
+              },
+              {
+                "Name": "read",
+                "Value": true,
+                "CimType": 1,
+                "Flags": "EnableOverride, ToSubclass"
+              }
+            ],
+            "ReferenceClassName": null
+          },
+          {
+            "Name": "Name",
+            "Value": null,
+            "CimType": 14,
+            "Flags": "Property, ReadOnly, NullValue",
+            "Qualifiers": [
+              {
+                "Name": "read",
+                "Value": true,
+                "CimType": 1,
+                "Flags": "EnableOverride, ToSubclass"
+              }
+            ],
+            "ReferenceClassName": null
+          },
+          {
+            "Name": "Status",
+            "Value": null,
+            "CimType": 14,
+            "Flags": "Property, ReadOnly, NullValue",
+            "Qualifiers": [
+              {
+                "Name": "MaxLen",
+                "Value": 10,
+                "CimType": 7,
+                "Flags": "EnableOverride, ToSubclass"
+              },
+              {
+                "Name": "read",
+                "Value": true,
+                "CimType": 1,
+                "Flags": "EnableOverride, ToSubclass"
+              },
+              {
+                "Name": "ValueMap",
+                "Value": [
+                  "OK",
+                  "Error",
+                  "Degraded",
+                  "Unknown",
+                  "Pred Fail",
+                  "Starting",
+                  "Stopping",
+                  "Service",
+                  "Stressed",
+                  "NonRecover",
+                  "No Contact",
+                  "Lost Comm"
+                ],
+                "CimType": 30,
+                "Flags": "EnableOverride, ToSubclass"
+              }
+            ],
+            "ReferenceClassName": null
+          }
         ],
         "CimClassQualifiers": [
-          "Locale = 1033",
-          "UUID = \"{8502C518-5FBB-11D2-AAC1-006008C78BC7}\"",
-          "Abstract = True"
+          {
+            "Name": "Locale",
+            "Value": 1033,
+            "CimType": 7,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "UUID",
+            "Value": "{8502C518-5FBB-11D2-AAC1-006008C78BC7}",
+            "CimType": 14,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "Abstract",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, Restricted"
+          }
         ],
         "CimClassMethods": [],
         "CimSystemProperties": {
@@ -39,7 +302,20 @@
           "Value": null,
           "CimType": 14,
           "Flags": "Property, ReadOnly, NullValue",
-          "Qualifiers": "MaxLen = 64 read = True",
+          "Qualifiers": [
+            {
+              "Name": "MaxLen",
+              "Value": 64,
+              "CimType": 7,
+              "Flags": "EnableOverride, ToSubclass"
+            },
+            {
+              "Name": "read",
+              "Value": true,
+              "CimType": 1,
+              "Flags": "EnableOverride, ToSubclass"
+            }
+          ],
           "ReferenceClassName": null
         },
         {
@@ -47,7 +323,14 @@
           "Value": null,
           "CimType": 14,
           "Flags": "Property, ReadOnly, NullValue",
-          "Qualifiers": "read = True",
+          "Qualifiers": [
+            {
+              "Name": "read",
+              "Value": true,
+              "CimType": 1,
+              "Flags": "EnableOverride, ToSubclass"
+            }
+          ],
           "ReferenceClassName": null
         },
         {
@@ -55,7 +338,22 @@
           "Value": null,
           "CimType": 13,
           "Flags": "Property, ReadOnly, NullValue",
-          "Qualifiers": "MappingStrings = ... read = True",
+          "Qualifiers": [
+            {
+              "Name": "MappingStrings",
+              "Value": [
+                "MIF.DMTF|ComponentID|001.5"
+              ],
+              "CimType": 30,
+              "Flags": "EnableOverride, ToSubclass"
+            },
+            {
+              "Name": "read",
+              "Value": true,
+              "CimType": 1,
+              "Flags": "EnableOverride, ToSubclass"
+            }
+          ],
           "ReferenceClassName": null
         },
         {
@@ -63,7 +361,20 @@
           "Value": null,
           "CimType": 14,
           "Flags": "Property, ReadOnly, NullValue",
-          "Qualifiers": "read = True Override = \"Name\"",
+          "Qualifiers": [
+            {
+              "Name": "read",
+              "Value": true,
+              "CimType": 1,
+              "Flags": "EnableOverride, ToSubclass"
+            },
+            {
+              "Name": "Override",
+              "Value": "Name",
+              "CimType": 14,
+              "Flags": "EnableOverride, Restricted"
+            }
+          ],
           "ReferenceClassName": null
         },
         {
@@ -71,7 +382,39 @@
           "Value": null,
           "CimType": 14,
           "Flags": "Property, ReadOnly, NullValue",
-          "Qualifiers": "MaxLen = 10 read = True ValueMap = ...",
+          "Qualifiers": [
+            {
+              "Name": "MaxLen",
+              "Value": 10,
+              "CimType": 7,
+              "Flags": "EnableOverride, ToSubclass"
+            },
+            {
+              "Name": "read",
+              "Value": true,
+              "CimType": 1,
+              "Flags": "EnableOverride, ToSubclass"
+            },
+            {
+              "Name": "ValueMap",
+              "Value": [
+                "OK",
+                "Error",
+                "Degraded",
+                "Unknown",
+                "Pred Fail",
+                "Starting",
+                "Stopping",
+                "Service",
+                "Stressed",
+                "NonRecover",
+                "No Contact",
+                "Lost Comm"
+              ],
+              "CimType": 30,
+              "Flags": "EnableOverride, ToSubclass"
+            }
+          ],
           "ReferenceClassName": null
         },
         {
@@ -79,7 +422,26 @@
           "Value": null,
           "CimType": 14,
           "Flags": "Property, ReadOnly, NullValue",
-          "Qualifiers": "CIM_Key = True MaxLen = 256 read = True",
+          "Qualifiers": [
+            {
+              "Name": "CIM_Key",
+              "Value": true,
+              "CimType": 1,
+              "Flags": "EnableOverride, ToSubclass"
+            },
+            {
+              "Name": "MaxLen",
+              "Value": 256,
+              "CimType": 7,
+              "Flags": "EnableOverride, ToSubclass"
+            },
+            {
+              "Name": "read",
+              "Value": true,
+              "CimType": 1,
+              "Flags": "EnableOverride, ToSubclass"
+            }
+          ],
           "ReferenceClassName": null
         },
         {
@@ -87,7 +449,32 @@
           "Value": null,
           "CimType": 14,
           "Flags": "Property, ReadOnly, NullValue",
-          "Qualifiers": "CIM_Key = True MaxLen = 256 Propagated = \"CIM_ComputerSystem.CreationClassName\" read = True",
+          "Qualifiers": [
+            {
+              "Name": "CIM_Key",
+              "Value": true,
+              "CimType": 1,
+              "Flags": "EnableOverride, ToSubclass"
+            },
+            {
+              "Name": "MaxLen",
+              "Value": 256,
+              "CimType": 7,
+              "Flags": "EnableOverride, ToSubclass"
+            },
+            {
+              "Name": "Propagated",
+              "Value": "CIM_ComputerSystem.CreationClassName",
+              "CimType": 14,
+              "Flags": "EnableOverride, ToSubclass"
+            },
+            {
+              "Name": "read",
+              "Value": true,
+              "CimType": 1,
+              "Flags": "EnableOverride, ToSubclass"
+            }
+          ],
           "ReferenceClassName": null
         },
         {
@@ -95,7 +482,32 @@
           "Value": null,
           "CimType": 14,
           "Flags": "Property, ReadOnly, NullValue",
-          "Qualifiers": "CIM_Key = True MaxLen = 256 Propagated = \"CIM_ComputerSystem.Name\" read = True",
+          "Qualifiers": [
+            {
+              "Name": "CIM_Key",
+              "Value": true,
+              "CimType": 1,
+              "Flags": "EnableOverride, ToSubclass"
+            },
+            {
+              "Name": "MaxLen",
+              "Value": 256,
+              "CimType": 7,
+              "Flags": "EnableOverride, ToSubclass"
+            },
+            {
+              "Name": "Propagated",
+              "Value": "CIM_ComputerSystem.Name",
+              "CimType": 14,
+              "Flags": "EnableOverride, ToSubclass"
+            },
+            {
+              "Name": "read",
+              "Value": true,
+              "CimType": 1,
+              "Flags": "EnableOverride, ToSubclass"
+            }
+          ],
           "ReferenceClassName": null
         },
         {
@@ -103,7 +515,14 @@
           "Value": null,
           "CimType": 5,
           "Flags": "Property, ReadOnly, NullValue",
-          "Qualifiers": "read = True",
+          "Qualifiers": [
+            {
+              "Name": "read",
+              "Value": true,
+              "CimType": 1,
+              "Flags": "EnableOverride, ToSubclass"
+            }
+          ],
           "ReferenceClassName": null
         },
         {
@@ -111,7 +530,14 @@
           "Value": null,
           "CimType": 1,
           "Flags": "Property, ReadOnly, NullValue",
-          "Qualifiers": "read = True",
+          "Qualifiers": [
+            {
+              "Name": "read",
+              "Value": true,
+              "CimType": 1,
+              "Flags": "EnableOverride, ToSubclass"
+            }
+          ],
           "ReferenceClassName": null
         },
         {
@@ -119,7 +545,14 @@
           "Value": null,
           "CimType": 8,
           "Flags": "Property, ReadOnly, NullValue",
-          "Qualifiers": "read = True",
+          "Qualifiers": [
+            {
+              "Name": "read",
+              "Value": true,
+              "CimType": 1,
+              "Flags": "EnableOverride, ToSubclass"
+            }
+          ],
           "ReferenceClassName": null
         },
         {
@@ -127,7 +560,22 @@
           "Value": null,
           "CimType": 8,
           "Flags": "Property, ReadOnly, NullValue",
-          "Qualifiers": "MappingStrings = ... read = True",
+          "Qualifiers": [
+            {
+              "Name": "MappingStrings",
+              "Value": [
+                "MIF.DMTF|System Memory Settings|001.4"
+              ],
+              "CimType": 30,
+              "Flags": "EnableOverride, ToSubclass"
+            },
+            {
+              "Name": "read",
+              "Value": true,
+              "CimType": 1,
+              "Flags": "EnableOverride, ToSubclass"
+            }
+          ],
           "ReferenceClassName": null
         },
         {
@@ -135,7 +583,14 @@
           "Value": null,
           "CimType": 8,
           "Flags": "Property, ReadOnly, NullValue",
-          "Qualifiers": "read = True",
+          "Qualifiers": [
+            {
+              "Name": "read",
+              "Value": true,
+              "CimType": 1,
+              "Flags": "EnableOverride, ToSubclass"
+            }
+          ],
           "ReferenceClassName": null
         },
         {
@@ -143,7 +598,14 @@
           "Value": null,
           "CimType": 13,
           "Flags": "Property, ReadOnly, NullValue",
-          "Qualifiers": "read = True",
+          "Qualifiers": [
+            {
+              "Name": "read",
+              "Value": true,
+              "CimType": 1,
+              "Flags": "EnableOverride, ToSubclass"
+            }
+          ],
           "ReferenceClassName": null
         },
         {
@@ -151,7 +613,23 @@
           "Value": null,
           "CimType": 13,
           "Flags": "Property, ReadOnly, NullValue",
-          "Qualifiers": "MappingStrings = ... read = True",
+          "Qualifiers": [
+            {
+              "Name": "MappingStrings",
+              "Value": [
+                "MIB.IETF|HOST-RESOURCES-MIB.hrSystemDate",
+                "MIF.DMTF|General Information|001.6"
+              ],
+              "CimType": 30,
+              "Flags": "EnableOverride, ToSubclass"
+            },
+            {
+              "Name": "read",
+              "Value": true,
+              "CimType": 1,
+              "Flags": "EnableOverride, ToSubclass"
+            }
+          ],
           "ReferenceClassName": null
         },
         {
@@ -159,7 +637,22 @@
           "Value": null,
           "CimType": 6,
           "Flags": "Property, ReadOnly, NullValue",
-          "Qualifiers": "MappingStrings = ... read = True",
+          "Qualifiers": [
+            {
+              "Name": "MappingStrings",
+              "Value": [
+                "MIB.IETF|HOST-RESOURCES-MIB.hrSystemMaxProcesses"
+              ],
+              "CimType": 30,
+              "Flags": "EnableOverride, ToSubclass"
+            },
+            {
+              "Name": "read",
+              "Value": true,
+              "CimType": 1,
+              "Flags": "EnableOverride, ToSubclass"
+            }
+          ],
           "ReferenceClassName": null
         },
         {
@@ -167,7 +660,14 @@
           "Value": null,
           "CimType": 8,
           "Flags": "Property, ReadOnly, NullValue",
-          "Qualifiers": "read = True",
+          "Qualifiers": [
+            {
+              "Name": "read",
+              "Value": true,
+              "CimType": 1,
+              "Flags": "EnableOverride, ToSubclass"
+            }
+          ],
           "ReferenceClassName": null
         },
         {
@@ -175,7 +675,14 @@
           "Value": null,
           "CimType": 6,
           "Flags": "Property, ReadOnly, NullValue",
-          "Qualifiers": "read = True",
+          "Qualifiers": [
+            {
+              "Name": "read",
+              "Value": true,
+              "CimType": 1,
+              "Flags": "EnableOverride, ToSubclass"
+            }
+          ],
           "ReferenceClassName": null
         },
         {
@@ -183,7 +690,22 @@
           "Value": null,
           "CimType": 6,
           "Flags": "Property, ReadOnly, NullValue",
-          "Qualifiers": "MappingStrings = ... read = True",
+          "Qualifiers": [
+            {
+              "Name": "MappingStrings",
+              "Value": [
+                "MIB.IETF|HOST-RESOURCES-MIB.hrSystemProcesses"
+              ],
+              "CimType": 30,
+              "Flags": "EnableOverride, ToSubclass"
+            },
+            {
+              "Name": "read",
+              "Value": true,
+              "CimType": 1,
+              "Flags": "EnableOverride, ToSubclass"
+            }
+          ],
           "ReferenceClassName": null
         },
         {
@@ -191,7 +713,22 @@
           "Value": null,
           "CimType": 6,
           "Flags": "Property, ReadOnly, NullValue",
-          "Qualifiers": "MappingStrings = ... read = True",
+          "Qualifiers": [
+            {
+              "Name": "MappingStrings",
+              "Value": [
+                "MIB.IETF|HOST-RESOURCES-MIB.hrSystemNumUsers"
+              ],
+              "CimType": 30,
+              "Flags": "EnableOverride, ToSubclass"
+            },
+            {
+              "Name": "read",
+              "Value": true,
+              "CimType": 1,
+              "Flags": "EnableOverride, ToSubclass"
+            }
+          ],
           "ReferenceClassName": null
         },
         {
@@ -199,7 +736,22 @@
           "Value": null,
           "CimType": 4,
           "Flags": "Property, ReadOnly, NullValue",
-          "Qualifiers": "ModelCorrespondence = ... read = True",
+          "Qualifiers": [
+            {
+              "Name": "ModelCorrespondence",
+              "Value": [
+                "CIM_OperatingSystem.OtherTypeDescription"
+              ],
+              "CimType": 30,
+              "Flags": "EnableOverride, ToSubclass"
+            },
+            {
+              "Name": "read",
+              "Value": true,
+              "CimType": 1,
+              "Flags": "EnableOverride, ToSubclass"
+            }
+          ],
           "ReferenceClassName": null
         },
         {
@@ -207,7 +759,28 @@
           "Value": null,
           "CimType": 14,
           "Flags": "Property, ReadOnly, NullValue",
-          "Qualifiers": "MaxLen = 64 ModelCorrespondence = ... read = True",
+          "Qualifiers": [
+            {
+              "Name": "MaxLen",
+              "Value": 64,
+              "CimType": 7,
+              "Flags": "EnableOverride, ToSubclass"
+            },
+            {
+              "Name": "ModelCorrespondence",
+              "Value": [
+                "CIM_OperatingSystem.OSType"
+              ],
+              "CimType": 30,
+              "Flags": "EnableOverride, ToSubclass"
+            },
+            {
+              "Name": "read",
+              "Value": true,
+              "CimType": 1,
+              "Flags": "EnableOverride, ToSubclass"
+            }
+          ],
           "ReferenceClassName": null
         },
         {
@@ -215,7 +788,22 @@
           "Value": null,
           "CimType": 8,
           "Flags": "Property, ReadOnly, NullValue",
-          "Qualifiers": "MappingStrings = ... read = True",
+          "Qualifiers": [
+            {
+              "Name": "MappingStrings",
+              "Value": [
+                "MIF.DMTF|System Memory Settings|001.3"
+              ],
+              "CimType": 30,
+              "Flags": "EnableOverride, ToSubclass"
+            },
+            {
+              "Name": "read",
+              "Value": true,
+              "CimType": 1,
+              "Flags": "EnableOverride, ToSubclass"
+            }
+          ],
           "ReferenceClassName": null
         },
         {
@@ -223,7 +811,14 @@
           "Value": null,
           "CimType": 8,
           "Flags": "Property, ReadOnly, NullValue",
-          "Qualifiers": "read = True",
+          "Qualifiers": [
+            {
+              "Name": "read",
+              "Value": true,
+              "CimType": 1,
+              "Flags": "EnableOverride, ToSubclass"
+            }
+          ],
           "ReferenceClassName": null
         },
         {
@@ -231,7 +826,14 @@
           "Value": null,
           "CimType": 8,
           "Flags": "Property, ReadOnly, NullValue",
-          "Qualifiers": "read = True",
+          "Qualifiers": [
+            {
+              "Name": "read",
+              "Value": true,
+              "CimType": 1,
+              "Flags": "EnableOverride, ToSubclass"
+            }
+          ],
           "ReferenceClassName": null
         },
         {
@@ -239,7 +841,14 @@
           "Value": null,
           "CimType": 8,
           "Flags": "Property, ReadOnly, NullValue",
-          "Qualifiers": "read = True",
+          "Qualifiers": [
+            {
+              "Name": "read",
+              "Value": true,
+              "CimType": 1,
+              "Flags": "EnableOverride, ToSubclass"
+            }
+          ],
           "ReferenceClassName": null
         },
         {
@@ -247,7 +856,22 @@
           "Value": null,
           "CimType": 14,
           "Flags": "Property, ReadOnly, NullValue",
-          "Qualifiers": "MappingStrings = ... read = True",
+          "Qualifiers": [
+            {
+              "Name": "MappingStrings",
+              "Value": [
+                "MIF.DMTF|Operating System|001.3"
+              ],
+              "CimType": 30,
+              "Flags": "EnableOverride, ToSubclass"
+            },
+            {
+              "Name": "read",
+              "Value": true,
+              "CimType": 1,
+              "Flags": "EnableOverride, ToSubclass"
+            }
+          ],
           "ReferenceClassName": null
         }
       ],
@@ -275,14 +899,14 @@
         {
           "Name": "Reboot",
           "ReturnType": 6,
-          "Parameters": "",
-          "Qualifiers": ""
+          "Parameters": [],
+          "Qualifiers": []
         },
         {
           "Name": "Shutdown",
           "ReturnType": 6,
-          "Parameters": "",
-          "Qualifiers": ""
+          "Parameters": [],
+          "Qualifiers": []
         }
       ],
       "CimSystemProperties": {
@@ -299,8 +923,18 @@
         "CimType": 14,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "MaxLen = 64",
-          "read = True"
+          {
+            "Name": "MaxLen",
+            "Value": 64,
+            "CimType": 7,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -310,10 +944,32 @@
         "CimType": 14,
         "Flags": "Property, NullValue",
         "Qualifiers": [
-          "read = True",
-          "MappingStrings = ...",
-          "Override = \"Description\"",
-          "write = True"
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "MappingStrings",
+            "Value": [
+              "WMI"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "Override",
+            "Value": "Description",
+            "CimType": 14,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "write",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -323,8 +979,20 @@
         "CimType": 13,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "MappingStrings = ...",
-          "read = True"
+          {
+            "Name": "MappingStrings",
+            "Value": [
+              "MIF.DMTF|ComponentID|001.5"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -334,7 +1002,12 @@
         "CimType": 14,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "read = True"
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -344,9 +1017,37 @@
         "CimType": 14,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "MaxLen = 10",
-          "read = True",
-          "ValueMap = ..."
+          {
+            "Name": "MaxLen",
+            "Value": 10,
+            "CimType": 7,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "ValueMap",
+            "Value": [
+              "OK",
+              "Error",
+              "Degraded",
+              "Unknown",
+              "Pred Fail",
+              "Starting",
+              "Stopping",
+              "Service",
+              "Stressed",
+              "NonRecover",
+              "No Contact",
+              "Lost Comm"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -356,9 +1057,24 @@
         "CimType": 14,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "CIM_Key = True",
-          "MaxLen = 256",
-          "read = True"
+          {
+            "Name": "CIM_Key",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "MaxLen",
+            "Value": 256,
+            "CimType": 7,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -368,10 +1084,30 @@
         "CimType": 14,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "CIM_Key = True",
-          "MaxLen = 256",
-          "Propagated = \"CIM_ComputerSystem.CreationClassName\"",
-          "read = True"
+          {
+            "Name": "CIM_Key",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "MaxLen",
+            "Value": 256,
+            "CimType": 7,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "Propagated",
+            "Value": "CIM_ComputerSystem.CreationClassName",
+            "CimType": 14,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -381,10 +1117,30 @@
         "CimType": 14,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "CIM_Key = True",
-          "MaxLen = 256",
-          "Propagated = \"CIM_ComputerSystem.Name\"",
-          "read = True"
+          {
+            "Name": "CIM_Key",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "MaxLen",
+            "Value": 256,
+            "CimType": 7,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "Propagated",
+            "Value": "CIM_ComputerSystem.Name",
+            "CimType": 14,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -394,7 +1150,12 @@
         "CimType": 5,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "read = True"
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -404,7 +1165,12 @@
         "CimType": 1,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "read = True"
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -414,7 +1180,12 @@
         "CimType": 8,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "read = True"
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -424,8 +1195,20 @@
         "CimType": 8,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "MappingStrings = ...",
-          "read = True"
+          {
+            "Name": "MappingStrings",
+            "Value": [
+              "MIF.DMTF|System Memory Settings|001.4"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -435,7 +1218,12 @@
         "CimType": 8,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "read = True"
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -445,7 +1233,12 @@
         "CimType": 13,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "read = True"
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -455,8 +1248,21 @@
         "CimType": 13,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "MappingStrings = ...",
-          "read = True"
+          {
+            "Name": "MappingStrings",
+            "Value": [
+              "MIB.IETF|HOST-RESOURCES-MIB.hrSystemDate",
+              "MIF.DMTF|General Information|001.6"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -466,8 +1272,20 @@
         "CimType": 6,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "MappingStrings = ...",
-          "read = True"
+          {
+            "Name": "MappingStrings",
+            "Value": [
+              "MIB.IETF|HOST-RESOURCES-MIB.hrSystemMaxProcesses"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -477,7 +1295,12 @@
         "CimType": 8,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "read = True"
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -487,7 +1310,12 @@
         "CimType": 6,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "read = True"
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -497,8 +1325,20 @@
         "CimType": 6,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "MappingStrings = ...",
-          "read = True"
+          {
+            "Name": "MappingStrings",
+            "Value": [
+              "MIB.IETF|HOST-RESOURCES-MIB.hrSystemProcesses"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -508,8 +1348,20 @@
         "CimType": 6,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "MappingStrings = ...",
-          "read = True"
+          {
+            "Name": "MappingStrings",
+            "Value": [
+              "MIB.IETF|HOST-RESOURCES-MIB.hrSystemNumUsers"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -519,8 +1371,20 @@
         "CimType": 4,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "ModelCorrespondence = ...",
-          "read = True"
+          {
+            "Name": "ModelCorrespondence",
+            "Value": [
+              "CIM_OperatingSystem.OtherTypeDescription"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -530,9 +1394,26 @@
         "CimType": 14,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "MaxLen = 64",
-          "ModelCorrespondence = ...",
-          "read = True"
+          {
+            "Name": "MaxLen",
+            "Value": 64,
+            "CimType": 7,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "ModelCorrespondence",
+            "Value": [
+              "CIM_OperatingSystem.OSType"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -542,8 +1423,20 @@
         "CimType": 8,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "MappingStrings = ...",
-          "read = True"
+          {
+            "Name": "MappingStrings",
+            "Value": [
+              "MIF.DMTF|System Memory Settings|001.3"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -553,7 +1446,12 @@
         "CimType": 8,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "read = True"
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -563,7 +1461,12 @@
         "CimType": 8,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "read = True"
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -573,7 +1476,12 @@
         "CimType": 8,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "read = True"
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -583,9 +1491,26 @@
         "CimType": 14,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "MappingStrings = ...",
-          "read = True",
-          "Override = \"Version\""
+          {
+            "Name": "MappingStrings",
+            "Value": [
+              "Win32API|System Information Structures|OSVERSIONINFOEX|dwMajorVersion, dwMinorVersion"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "Override",
+            "Value": "Version",
+            "CimType": 14,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -595,8 +1520,20 @@
         "CimType": 14,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "MappingStrings = ...",
-          "read = True"
+          {
+            "Name": "MappingStrings",
+            "Value": [
+              "Win32API|DRIVE_MAP_INFO|btInt13Unit"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -606,8 +1543,20 @@
         "CimType": 14,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "MappingStrings = ...",
-          "read = True"
+          {
+            "Name": "MappingStrings",
+            "Value": [
+              "Win32API|System Information Structures|OSVERSIONINFOEX|dwBuildNumber"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -617,8 +1566,20 @@
         "CimType": 14,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "MappingStrings = ...",
-          "read = True"
+          {
+            "Name": "MappingStrings",
+            "Value": [
+              "Win32Registry|Software\\Microsoft\\Windows\\CurrentVersion|CurrentType"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -628,9 +1589,26 @@
         "CimType": 14,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "MappingStrings = ...",
-          "MaxLen = 6",
-          "read = True"
+          {
+            "Name": "MappingStrings",
+            "Value": [
+              "Win32API|National Language Support Functions|GetLocaleInfo|LOCALE_IDEFAULTANSICODEPAGE"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "MaxLen",
+            "Value": 6,
+            "CimType": 7,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -640,8 +1618,20 @@
         "CimType": 14,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "MappingStrings = ...",
-          "read = True"
+          {
+            "Name": "MappingStrings",
+            "Value": [
+              "Win32API|National Language Support Functions|GetLocaleInfo|LOCALE_ICOUNTRY"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -651,8 +1641,20 @@
         "CimType": 14,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "MappingStrings = ...",
-          "read = True"
+          {
+            "Name": "MappingStrings",
+            "Value": [
+              "Win32API|System Information Structures|OSVERSIONINFOEX|szCSDVersion"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -662,8 +1664,20 @@
         "CimType": 1,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "MappingStrings = ...",
-          "read = True"
+          {
+            "Name": "MappingStrings",
+            "Value": [
+              "WMI"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -673,8 +1687,20 @@
         "CimType": 1,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "MappingStrings = ...",
-          "read = True"
+          {
+            "Name": "MappingStrings",
+            "Value": [
+              "WMI"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -684,8 +1710,20 @@
         "CimType": 1,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "MappingStrings = ...",
-          "read = True"
+          {
+            "Name": "MappingStrings",
+            "Value": [
+              "WMI"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -695,9 +1733,31 @@
         "CimType": 2,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "MappingStrings = ...",
-          "read = True",
-          "ValueMap = ..."
+          {
+            "Name": "MappingStrings",
+            "Value": [
+              "WMI"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "ValueMap",
+            "Value": [
+              "0",
+              "1",
+              "2",
+              "3"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -707,8 +1767,20 @@
         "CimType": 1,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "MappingStrings = ...",
-          "read = True"
+          {
+            "Name": "MappingStrings",
+            "Value": [
+              "Win32API|GetSystemMetrics|SM_DEBUG"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -718,7 +1790,12 @@
         "CimType": 6,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "read = True"
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -728,9 +1805,26 @@
         "CimType": 2,
         "Flags": "Property, NullValue",
         "Qualifiers": [
-          "MappingStrings = ...",
-          "read = True",
-          "write = True"
+          {
+            "Name": "MappingStrings",
+            "Value": [
+              "Win32Registry|SYSTEM\\CurrentControlSet\\Control\\PriorityControl|Win32PrioritySeparation"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "write",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -740,9 +1834,27 @@
         "CimType": 6,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "DEPRECATED = True",
-          "read = True",
-          "ValueMap = ..."
+          {
+            "Name": "DEPRECATED",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "ValueMap",
+            "Value": [
+              "0",
+              "1"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -752,8 +1864,20 @@
         "CimType": 14,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "MappingStrings = ...",
-          "read = True"
+          {
+            "Name": "MappingStrings",
+            "Value": [
+              "Win32API|National Language Support Functions|GetLocaleInfo|LOCALE_ILANGUAGE"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -763,8 +1887,20 @@
         "CimType": 14,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "MappingStrings = ...",
-          "read = True"
+          {
+            "Name": "MappingStrings",
+            "Value": [
+              "WMI"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -774,8 +1910,20 @@
         "CimType": 30,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "MappingStrings = ...",
-          "read = True"
+          {
+            "Name": "MappingStrings",
+            "Value": [
+              "WMI"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -785,9 +1933,54 @@
         "CimType": 6,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "MappingStrings = ...",
-          "read = True",
-          "ValueMap = ..."
+          {
+            "Name": "MappingStrings",
+            "Value": [
+              "WMI"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "ValueMap",
+            "Value": [
+              "0",
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11",
+              "12",
+              "13",
+              "14",
+              "15",
+              "16",
+              "17",
+              "18",
+              "19",
+              "20",
+              "21",
+              "22",
+              "23",
+              "24",
+              "25",
+              "26"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -797,8 +1990,20 @@
         "CimType": 14,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "MappingStrings = ...",
-          "read = True"
+          {
+            "Name": "MappingStrings",
+            "Value": [
+              "Win32Registry|Software\\Microsoft\\Windows\\CurrentVersion|RegisteredOrganization"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -808,7 +2013,12 @@
         "CimType": 14,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "read = True"
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -818,8 +2028,20 @@
         "CimType": 6,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "MappingStrings = ...",
-          "read = True"
+          {
+            "Name": "MappingStrings",
+            "Value": [
+              "Win32Registry|DEFAULT\\Control Panel\\International|Locale"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -829,8 +2051,20 @@
         "CimType": 6,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "MappingStrings = ...",
-          "read = True"
+          {
+            "Name": "MappingStrings",
+            "Value": [
+              "Win32Registry|SYSTEM\\CurrentControlSet\\Control\\ProductOptions|ProductSuite"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -840,7 +2074,12 @@
         "CimType": 1,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "read = True"
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -850,8 +2089,20 @@
         "CimType": 14,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "MappingStrings = ...",
-          "read = True"
+          {
+            "Name": "MappingStrings",
+            "Value": [
+              "Win32Registry|Software\\Microsoft\\Windows NT\\CurrentVersion|Plus! ProductId"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -861,8 +2112,20 @@
         "CimType": 14,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "MappingStrings = ...",
-          "read = True"
+          {
+            "Name": "MappingStrings",
+            "Value": [
+              "Win32Registry|Software\\Microsoft\\Windows NT\\CurrentVersion|Plus! VersionNumber"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -872,7 +2135,12 @@
         "CimType": 1,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "read = True"
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -882,8 +2150,20 @@
         "CimType": 1,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "MappingStrings = ...",
-          "read = True"
+          {
+            "Name": "MappingStrings",
+            "Value": [
+              "WMI"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -893,8 +2173,22 @@
         "CimType": 6,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "read = True",
-          "ValueMap = ..."
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "ValueMap",
+            "Value": [
+              "1",
+              "2",
+              "3"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -904,8 +2198,20 @@
         "CimType": 14,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "MappingStrings = ...",
-          "read = True"
+          {
+            "Name": "MappingStrings",
+            "Value": [
+              "Win32Registry|Software\\Microsoft\\Windows NT\\CurrentVersion|RegisteredOwner"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -915,8 +2221,20 @@
         "CimType": 14,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "MappingStrings = ...",
-          "read = True"
+          {
+            "Name": "MappingStrings",
+            "Value": [
+              "Win32Registry|Software\\Microsoft\\Windows NT\\CurrentVersion|ProductId"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -926,8 +2244,20 @@
         "CimType": 4,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "MappingStrings = ...",
-          "read = True"
+          {
+            "Name": "MappingStrings",
+            "Value": [
+              "Win32API|System Information Structures|OSVERSIONINFOEX|wServicePackMajor"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -937,8 +2267,20 @@
         "CimType": 4,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "MappingStrings = ...",
-          "read = True"
+          {
+            "Name": "MappingStrings",
+            "Value": [
+              "Win32API|System Information Structures|OSVERSIONINFOEX|wServicePackMinor"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -948,8 +2290,30 @@
         "CimType": 6,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "BitMap = ...",
-          "read = True"
+          {
+            "Name": "BitMap",
+            "Value": [
+              "0",
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -959,8 +2323,20 @@
         "CimType": 14,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "MappingStrings = ...",
-          "read = True"
+          {
+            "Name": "MappingStrings",
+            "Value": [
+              "Win32API|Registry Functions|GetPrivateProfileString|Paths|TargetDevice"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -970,8 +2346,20 @@
         "CimType": 14,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "MappingStrings = ...",
-          "read = True"
+          {
+            "Name": "MappingStrings",
+            "Value": [
+              "Win32API|System Information Functions|GetSystemDirectory"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -981,7 +2369,12 @@
         "CimType": 14,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "read = True"
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       },
@@ -991,8 +2384,20 @@
         "CimType": 14,
         "Flags": "Property, ReadOnly, NullValue",
         "Qualifiers": [
-          "MappingStrings = ...",
-          "read = True"
+          {
+            "Name": "MappingStrings",
+            "Value": [
+              "Win32API|System Information Functions|GetWindowsDirectory"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "read",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ],
         "ReferenceClassName": null
       }
@@ -1041,11 +2446,43 @@
         "ReturnType": 6,
         "Parameters": [],
         "Qualifiers": [
-          "Implemented = True",
-          "MappingStrings = ...",
-          "Override = \"Reboot\"",
-          "Privileges = ...",
-          "ValueMap = ..."
+          {
+            "Name": "Implemented",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, Restricted"
+          },
+          {
+            "Name": "MappingStrings",
+            "Value": [
+              "Win32API|System Shutdown Functions|ExitWindowsEx|EWX_REBOOT"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "Override",
+            "Value": "Reboot",
+            "CimType": 14,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "Privileges",
+            "Value": [
+              "SeShutdownPrivilege"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "ValueMap",
+            "Value": [
+              "0",
+              ".."
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ]
       },
       {
@@ -1053,53 +2490,325 @@
         "ReturnType": 6,
         "Parameters": [],
         "Qualifiers": [
-          "Implemented = True",
-          "MappingStrings = ...",
-          "Override = \"Shutdown\"",
-          "Privileges = ...",
-          "ValueMap = ..."
+          {
+            "Name": "Implemented",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, Restricted"
+          },
+          {
+            "Name": "MappingStrings",
+            "Value": [
+              "Win32API|System Shutdown Functions|ExitWindowsEx|EWX_SHUTDOWN"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "Override",
+            "Value": "Shutdown",
+            "CimType": 14,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "Privileges",
+            "Value": [
+              "SeShutdownPrivilege"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "ValueMap",
+            "Value": [
+              "0",
+              ".."
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ]
       },
       {
         "Name": "Win32Shutdown",
         "ReturnType": 6,
         "Parameters": [
-          "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
-          "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod"
+          {
+            "Name": "Flags",
+            "CimType": 7,
+            "Qualifiers": [
+              {
+                "Name": "ID",
+                "Value": 0,
+                "CimType": 7,
+                "Flags": "DisableOverride, ToSubclass"
+              },
+              {
+                "Name": "in",
+                "Value": true,
+                "CimType": 1,
+                "Flags": "DisableOverride, ToSubclass"
+              },
+              {
+                "Name": "MappingStrings",
+                "Value": [
+                  "Win32API|System Shutdown Functions|ExitWindowsEx"
+                ],
+                "CimType": 30,
+                "Flags": "EnableOverride, ToSubclass"
+              }
+            ],
+            "ReferenceClassName": null
+          },
+          {
+            "Name": "Reserved",
+            "CimType": 7,
+            "Qualifiers": [
+              {
+                "Name": "ID",
+                "Value": 1,
+                "CimType": 7,
+                "Flags": "DisableOverride, ToSubclass"
+              },
+              {
+                "Name": "in",
+                "Value": true,
+                "CimType": 1,
+                "Flags": "DisableOverride, ToSubclass"
+              },
+              {
+                "Name": "MappingStrings",
+                "Value": [
+                  "Win32API|System Shutdown Functions|ExitWindowsEx"
+                ],
+                "CimType": 30,
+                "Flags": "EnableOverride, ToSubclass"
+              }
+            ],
+            "ReferenceClassName": null
+          }
         ],
         "Qualifiers": [
-          "Implemented = True",
-          "MappingStrings = ...",
-          "Privileges = ...",
-          "ValueMap = ..."
+          {
+            "Name": "Implemented",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, Restricted"
+          },
+          {
+            "Name": "MappingStrings",
+            "Value": [
+              "Win32API|System Shutdown Functions|ExitWindowsEx"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "Privileges",
+            "Value": [
+              "SeShutdownPrivilege"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "ValueMap",
+            "Value": [
+              "0",
+              ".."
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ]
       },
       {
         "Name": "Win32ShutdownTracker",
         "ReturnType": 6,
         "Parameters": [
-          "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
-          "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
-          "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
-          "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod"
+          {
+            "Name": "Comment",
+            "CimType": 14,
+            "Qualifiers": [
+              {
+                "Name": "ID",
+                "Value": 1,
+                "CimType": 7,
+                "Flags": "DisableOverride, ToSubclass"
+              },
+              {
+                "Name": "in",
+                "Value": true,
+                "CimType": 1,
+                "Flags": "DisableOverride, ToSubclass"
+              },
+              {
+                "Name": "MappingStrings",
+                "Value": [
+                  "Win32API|System Shutdown Functions|InitiateSystemShutdownEx"
+                ],
+                "CimType": 30,
+                "Flags": "EnableOverride, ToSubclass"
+              }
+            ],
+            "ReferenceClassName": null
+          },
+          {
+            "Name": "Flags",
+            "CimType": 7,
+            "Qualifiers": [
+              {
+                "Name": "ID",
+                "Value": 3,
+                "CimType": 7,
+                "Flags": "DisableOverride, ToSubclass"
+              },
+              {
+                "Name": "in",
+                "Value": true,
+                "CimType": 1,
+                "Flags": "DisableOverride, ToSubclass"
+              },
+              {
+                "Name": "MappingStrings",
+                "Value": [
+                  "Win32API|System Shutdown Functions|ExitWindowsEx"
+                ],
+                "CimType": 30,
+                "Flags": "EnableOverride, ToSubclass"
+              }
+            ],
+            "ReferenceClassName": null
+          },
+          {
+            "Name": "ReasonCode",
+            "CimType": 6,
+            "Qualifiers": [
+              {
+                "Name": "ID",
+                "Value": 2,
+                "CimType": 7,
+                "Flags": "DisableOverride, ToSubclass"
+              },
+              {
+                "Name": "in",
+                "Value": true,
+                "CimType": 1,
+                "Flags": "DisableOverride, ToSubclass"
+              },
+              {
+                "Name": "MappingStrings",
+                "Value": [
+                  "Win32API|System Shutdown Functions|InitiateSystemShutdownEx"
+                ],
+                "CimType": 30,
+                "Flags": "EnableOverride, ToSubclass"
+              }
+            ],
+            "ReferenceClassName": null
+          },
+          {
+            "Name": "Timeout",
+            "CimType": 6,
+            "Qualifiers": [
+              {
+                "Name": "ID",
+                "Value": 0,
+                "CimType": 7,
+                "Flags": "DisableOverride, ToSubclass"
+              },
+              {
+                "Name": "in",
+                "Value": true,
+                "CimType": 1,
+                "Flags": "DisableOverride, ToSubclass"
+              }
+            ],
+            "ReferenceClassName": null
+          }
         ],
         "Qualifiers": [
-          "Implemented = True",
-          "MappingStrings = ...",
-          "Privileges = ...",
-          "ValueMap = ..."
+          {
+            "Name": "Implemented",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, Restricted"
+          },
+          {
+            "Name": "MappingStrings",
+            "Value": [
+              "Win32API|System Shutdown Functions|ExitWindowsEx"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "Privileges",
+            "Value": [
+              "SeShutdownPrivilege"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "ValueMap",
+            "Value": [
+              "0",
+              ".."
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ]
       },
       {
         "Name": "SetDateTime",
         "ReturnType": 6,
         "Parameters": [
-          "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod"
+          {
+            "Name": "LocalDateTime",
+            "CimType": 13,
+            "Qualifiers": [
+              {
+                "Name": "ID",
+                "Value": 0,
+                "CimType": 7,
+                "Flags": "DisableOverride, ToSubclass"
+              },
+              {
+                "Name": "in",
+                "Value": true,
+                "CimType": 1,
+                "Flags": "DisableOverride, ToSubclass"
+              }
+            ],
+            "ReferenceClassName": null
+          }
         ],
         "Qualifiers": [
-          "Implemented = True",
-          "Privileges = ...",
-          "ValueMap = ..."
+          {
+            "Name": "Implemented",
+            "Value": true,
+            "CimType": 1,
+            "Flags": "EnableOverride, Restricted"
+          },
+          {
+            "Name": "Privileges",
+            "Value": [
+              "SeSystemTimePrivilege"
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          },
+          {
+            "Name": "ValueMap",
+            "Value": [
+              "0",
+              ".."
+            ],
+            "CimType": 30,
+            "Flags": "EnableOverride, ToSubclass"
+          }
         ]
       }
     ],
@@ -1183,7 +2892,7 @@
     },
     {
       "Name": "FreePhysicalMemory",
-      "Value": 17331800,
+      "Value": 17065776,
       "CimType": 8,
       "Flags": "Property, ReadOnly, NotModified",
       "IsValueModified": false
@@ -1197,7 +2906,7 @@
     },
     {
       "Name": "FreeVirtualMemory",
-      "Value": 13805076,
+      "Value": 13821304,
       "CimType": 8,
       "Flags": "Property, ReadOnly, NotModified",
       "IsValueModified": false
@@ -1211,7 +2920,7 @@
     },
     {
       "Name": "LocalDateTime",
-      "Value": "2026-02-05T12:23:03.398+00:00",
+      "Value": "2026-02-05T12:32:21.271+00:00",
       "CimType": 13,
       "Flags": "Property, ReadOnly, NotModified",
       "IsValueModified": false
@@ -1239,7 +2948,7 @@
     },
     {
       "Name": "NumberOfProcesses",
-      "Value": 338,
+      "Value": 342,
       "CimType": 6,
       "Flags": "Property, ReadOnly, NotModified",
       "IsValueModified": false
@@ -1578,15 +3287,15 @@
   "CSName": "IVAN_PREDATOR",
   "CurrentTimeZone": 0,
   "Distributed": false,
-  "FreePhysicalMemory": 17331800,
+  "FreePhysicalMemory": 17065776,
   "FreeSpaceInPagingFiles": 1937344,
-  "FreeVirtualMemory": 13805076,
+  "FreeVirtualMemory": 13821304,
   "LastBootUpTime": "2026-02-05T08:59:44.5+00:00",
-  "LocalDateTime": "2026-02-05T12:23:03.398+00:00",
+  "LocalDateTime": "2026-02-05T12:32:21.271+00:00",
   "MaxNumberOfProcesses": 4294967295,
   "MaxProcessMemorySize": 137438953344,
   "NumberOfLicensedUsers": null,
-  "NumberOfProcesses": 338,
+  "NumberOfProcesses": 342,
   "NumberOfUsers": 2,
   "OSType": 18,
   "OtherTypeDescription": null,
