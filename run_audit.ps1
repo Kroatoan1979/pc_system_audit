@@ -70,19 +70,19 @@ Get-WmiObject -Class Win32_Product | Select-Object Name, Version | Export-Csv -P
 $devEnvTxt = Join-AuditPath "dev_environment.txt"
 
 "=== Python ===" | Out-File -FilePath $devEnvTxt -Encoding utf8
-python --version 2>$null | Out-File -Append -FilePath $devEnvTxt
+python --version 2>$null | Out-String | Out-File -Append -FilePath $devEnvTxt -Encoding utf8
 
-"=== Node.js ===" | Out-File -Append -FilePath $devEnvTxt
-node --version 2>$null | Out-File -Append -FilePath $devEnvTxt
+"=== Node.js ===" | Out-File -Append -FilePath $devEnvTxt -Encoding utf8
+node --version 2>$null | Out-String | Out-File -Append -FilePath $devEnvTxt -Encoding utf8
 
-"=== Git ===" | Out-File -Append -FilePath $devEnvTxt
-git --version 2>$null | Out-File -Append -FilePath $devEnvTxt
+"=== Git ===" | Out-File -Append -FilePath $devEnvTxt -Encoding utf8
+git --version 2>$null | Out-String | Out-File -Append -FilePath $devEnvTxt -Encoding utf8
 
-"=== Docker ===" | Out-File -Append -FilePath $devEnvTxt
-docker --version 2>$null | Out-File -Append -FilePath $devEnvTxt
+"=== Docker ===" | Out-File -Append -FilePath $devEnvTxt -Encoding utf8
+docker --version 2>$null | Out-String | Out-File -Append -FilePath $devEnvTxt -Encoding utf8
 
-"=== WSL ===" | Out-File -Append -FilePath $devEnvTxt
-wsl --status 2>$null | Out-File -Append -FilePath $devEnvTxt
+"=== WSL ===" | Out-File -Append -FilePath $devEnvTxt -Encoding utf8
+wsl --status 2>$null | Out-String | Out-File -Append -FilePath $devEnvTxt -Encoding utf8
 
 # ============================
 # 6. Performance Snapshot
