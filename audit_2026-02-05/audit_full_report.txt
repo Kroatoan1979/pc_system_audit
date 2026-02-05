@@ -122,9 +122,9 @@ OsCountryCode                                           : 351
 OsCurrentTimeZone                                       : 0
 OsLocaleID                                              : 0816
 OsLocale                                                : pt-PT
-OsLocalDateTime                                         : 05/02/2026 12:32:13
+OsLocalDateTime                                         : 05/02/2026 12:40:05
 OsLastBootUpTime                                        : 05/02/2026 08:59:44
-OsUptime                                                : 03:32:28.9905008
+OsUptime                                                : 03:40:20.8368062
 OsBuildType                                             : Multiprocessor Free
 OsCodeSet                                               : 1252
 OsDataExecutionPreventionAvailable                      : True
@@ -136,13 +136,13 @@ OsDistributed                                           : False
 OsEncryptionLevel                                       : 256
 OsForegroundApplicationBoost                            : Maximum
 OsTotalVisibleMemorySize                                : 33267576
-OsFreePhysicalMemory                                    : 17030104
+OsFreePhysicalMemory                                    : 16526568
 OsTotalVirtualMemorySize                                : 35364728
-OsFreeVirtualMemory                                     : 13786124
-OsInUseVirtualMemory                                    : 21578604
+OsFreeVirtualMemory                                     : 13249700
+OsInUseVirtualMemory                                    : 22115028
 OsTotalSwapSpaceSize                                    : 
 OsSizeStoredInPagingFiles                               : 2097152
-OsFreeSpaceInPagingFiles                                : 1937344
+OsFreeSpaceInPagingFiles                                : 1940160
 OsPagingFiles                                           : {C:\pagefile.sys}
 OsHardwareAbstractionLayer                              : 10.0.26100.1
 OsInstallDate                                           : 29/06/2025 17:46:33
@@ -151,7 +151,7 @@ OsMaxNumberOfProcesses                                  : 4294967295
 OsMaxProcessMemorySize                                  : 137438953344
 OsMuiLanguages                                          : {pt-PT}
 OsNumberOfLicensedUsers                                 : 
-OsNumberOfProcesses                                     : 340
+OsNumberOfProcesses                                     : 342
 OsNumberOfUsers                                         : 2
 OsOrganization                                          : 
 OsArchitecture                                          : 64 bits
@@ -302,21 +302,21 @@ D i s t r i b u i þ Ò o   P r e d e f i n i d a :   U b u n t u - 2 2 . 0 4 
 
 LoadPercentage
 --------------
-             2
+            19
 
 
 === Memoria ===
 
 FreePhysicalMemory TotalVisibleMemorySize
 ------------------ ----------------------
-          17022400               33267576
+          16549008               33267576
 
 
 === Disco ===
 
 DeviceID    FreeSpace          Size
 --------    ---------          ----
-C:       707756003328 1023234011136
+C:       707742371840 1023234011136
 
 
 

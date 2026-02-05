@@ -7,6 +7,7 @@ Ferramenta automÃ¡tica de auditoria ao Windows. Recolhe hardware, software, si
 - [2026-02-05](audit_2026-02-05/)
 - [2026-02-05](audit_2026-02-05/)
 - [2026-02-05](audit_2026-02-05/)
+- [2026-02-05](audit_2026-02-05/)
 (Atualizado automaticamente pelo script.)
 - [Parece que o resultado nÃ£o era seguro para mostrar. Vamos alterar tudo e tentar outra coisa!]
 ## Como executar
