@@ -1,333 +1,1644 @@
 ﻿{
-    "WindowsBuildLabEx":  "26100.1.amd64fre.ge_release.240331-1435",
-    "WindowsCurrentVersion":  "6.3",
-    "WindowsEditionId":  "Core",
-    "WindowsInstallationType":  "Client",
-    "WindowsInstallDateFromRegistry":  "\/Date(1751211993000)\/",
-    "WindowsProductId":  "00325-97250-04250-AAOEM",
-    "WindowsProductName":  "Windows 10 Home",
-    "WindowsRegisteredOrganization":  null,
-    "WindowsRegisteredOwner":  "ivan.almeida1979@gmail.com",
-    "WindowsSystemRoot":  "C:\\WINDOWS",
-    "WindowsVersion":  "2009",
-    "OSDisplayVersion":  "25H2",
-    "OsName":  "Microsoft Windows 11 Home",
-    "OsType":  18,
-    "OsOperatingSystemSKU":  101,
-    "OsVersion":  "10.0.26200",
-    "OsCSDVersion":  null,
-    "OsBuildNumber":  "26200",
-    "OsHotFixes":  [
-                       {
-                           "HotFixID":  "KB5066128",
-                           "Description":  "Update",
-                           "InstalledOn":  "10/19/2025",
-                           "FixComments":  ""
-                       },
-                       {
-                           "HotFixID":  "KB5050575",
-                           "Description":  "Update",
-                           "InstalledOn":  "6/29/2025",
-                           "FixComments":  ""
-                       },
-                       {
-                           "HotFixID":  "KB5054156",
-                           "Description":  "Update",
-                           "InstalledOn":  "10/19/2025",
-                           "FixComments":  ""
-                       },
-                       {
-                           "HotFixID":  "KB5059093",
-                           "Description":  "Update",
-                           "InstalledOn":  "6/29/2025",
-                           "FixComments":  ""
-                       },
-                       {
-                           "HotFixID":  "KB5074109",
-                           "Description":  "Security Update",
-                           "InstalledOn":  "1/14/2026",
-                           "FixComments":  ""
-                       },
-                       {
-                           "HotFixID":  "KB5071142",
-                           "Description":  "Update",
-                           "InstalledOn":  "12/9/2025",
-                           "FixComments":  ""
-                       }
-                   ],
-    "OsBootDevice":  "\\Device\\HarddiskVolume1",
-    "OsSystemDevice":  "\\Device\\HarddiskVolume3",
-    "OsSystemDirectory":  "C:\\WINDOWS\\system32",
-    "OsSystemDrive":  "C:",
-    "OsWindowsDirectory":  "C:\\WINDOWS",
-    "OsCountryCode":  "351",
-    "OsCurrentTimeZone":  0,
-    "OsLocaleID":  "0816",
-    "OsLocale":  "pt-PT",
-    "OsLocalDateTime":  "\/Date(1770287764031)\/",
-    "OsLastBootUpTime":  "\/Date(1770281984500)\/",
-    "OsUptime":  {
-                     "Ticks":  57795219363,
-                     "Days":  0,
-                     "Hours":  1,
-                     "Milliseconds":  521,
-                     "Minutes":  36,
-                     "Seconds":  19,
-                     "TotalDays":  0.066892615003472225,
-                     "TotalHours":  1.6054227600833333,
-                     "TotalMilliseconds":  5779521.9363,
-                     "TotalMinutes":  96.325365605,
-                     "TotalSeconds":  5779.5219363
+    "CimClass":  {
+                     "CimSuperClassName":  "CIM_OperatingSystem",
+                     "CimSuperClass":  {
+                                           "CimSuperClassName":  "CIM_LogicalElement",
+                                           "CimSuperClass":  {
+                                                                 "CimSuperClassName":  "CIM_ManagedSystemElement",
+                                                                 "CimSuperClass":  {
+                                                                                       "CimSuperClassName":  null,
+                                                                                       "CimSuperClass":  null,
+                                                                                       "CimClassProperties":  "Caption Description InstallDate Name Status",
+                                                                                       "CimClassQualifiers":  "Abstract = True Locale = 1033 UUID = \"{8502C517-5FBB-11D2-AAC1-006008C78BC7}\"",
+                                                                                       "CimClassMethods":  "",
+                                                                                       "CimSystemProperties":  "Microsoft.Management.Infrastructure.CimSystemProperties"
+                                                                                   },
+                                                                 "CimClassProperties":  [
+                                                                                            "Caption",
+                                                                                            "Description",
+                                                                                            "InstallDate",
+                                                                                            "Name",
+                                                                                            "Status"
+                                                                                        ],
+                                                                 "CimClassQualifiers":  [
+                                                                                            "Locale = 1033",
+                                                                                            "UUID = \"{8502C518-5FBB-11D2-AAC1-006008C78BC7}\"",
+                                                                                            "Abstract = True"
+                                                                                        ],
+                                                                 "CimClassMethods":  [
+
+                                                                                     ],
+                                                                 "CimSystemProperties":  {
+                                                                                             "Namespace":  "ROOT/cimv2",
+                                                                                             "ServerName":  "IVAN_PREDATOR",
+                                                                                             "ClassName":  "CIM_LogicalElement",
+                                                                                             "Path":  null
+                                                                                         }
+                                                             },
+                                           "CimClassProperties":  [
+                                                                      {
+                                                                          "Name":  "Caption",
+                                                                          "Value":  null,
+                                                                          "CimType":  14,
+                                                                          "Flags":  "Property, ReadOnly, NullValue",
+                                                                          "Qualifiers":  "MaxLen = 64 read = True",
+                                                                          "ReferenceClassName":  null
+                                                                      },
+                                                                      {
+                                                                          "Name":  "Description",
+                                                                          "Value":  null,
+                                                                          "CimType":  14,
+                                                                          "Flags":  "Property, ReadOnly, NullValue",
+                                                                          "Qualifiers":  "read = True",
+                                                                          "ReferenceClassName":  null
+                                                                      },
+                                                                      {
+                                                                          "Name":  "InstallDate",
+                                                                          "Value":  null,
+                                                                          "CimType":  13,
+                                                                          "Flags":  "Property, ReadOnly, NullValue",
+                                                                          "Qualifiers":  "MappingStrings = ... read = True",
+                                                                          "ReferenceClassName":  null
+                                                                      },
+                                                                      {
+                                                                          "Name":  "Name",
+                                                                          "Value":  null,
+                                                                          "CimType":  14,
+                                                                          "Flags":  "Property, ReadOnly, NullValue",
+                                                                          "Qualifiers":  "read = True Override = \"Name\"",
+                                                                          "ReferenceClassName":  null
+                                                                      },
+                                                                      {
+                                                                          "Name":  "Status",
+                                                                          "Value":  null,
+                                                                          "CimType":  14,
+                                                                          "Flags":  "Property, ReadOnly, NullValue",
+                                                                          "Qualifiers":  "MaxLen = 10 read = True ValueMap = ...",
+                                                                          "ReferenceClassName":  null
+                                                                      },
+                                                                      {
+                                                                          "Name":  "CreationClassName",
+                                                                          "Value":  null,
+                                                                          "CimType":  14,
+                                                                          "Flags":  "Property, ReadOnly, NullValue",
+                                                                          "Qualifiers":  "CIM_Key = True MaxLen = 256 read = True",
+                                                                          "ReferenceClassName":  null
+                                                                      },
+                                                                      {
+                                                                          "Name":  "CSCreationClassName",
+                                                                          "Value":  null,
+                                                                          "CimType":  14,
+                                                                          "Flags":  "Property, ReadOnly, NullValue",
+                                                                          "Qualifiers":  "CIM_Key = True MaxLen = 256 Propagated = \"CIM_ComputerSystem.CreationClassName\" read = True",
+                                                                          "ReferenceClassName":  null
+                                                                      },
+                                                                      {
+                                                                          "Name":  "CSName",
+                                                                          "Value":  null,
+                                                                          "CimType":  14,
+                                                                          "Flags":  "Property, ReadOnly, NullValue",
+                                                                          "Qualifiers":  "CIM_Key = True MaxLen = 256 Propagated = \"CIM_ComputerSystem.Name\" read = True",
+                                                                          "ReferenceClassName":  null
+                                                                      },
+                                                                      {
+                                                                          "Name":  "CurrentTimeZone",
+                                                                          "Value":  null,
+                                                                          "CimType":  5,
+                                                                          "Flags":  "Property, ReadOnly, NullValue",
+                                                                          "Qualifiers":  "read = True",
+                                                                          "ReferenceClassName":  null
+                                                                      },
+                                                                      {
+                                                                          "Name":  "Distributed",
+                                                                          "Value":  null,
+                                                                          "CimType":  1,
+                                                                          "Flags":  "Property, ReadOnly, NullValue",
+                                                                          "Qualifiers":  "read = True",
+                                                                          "ReferenceClassName":  null
+                                                                      },
+                                                                      {
+                                                                          "Name":  "FreePhysicalMemory",
+                                                                          "Value":  null,
+                                                                          "CimType":  8,
+                                                                          "Flags":  "Property, ReadOnly, NullValue",
+                                                                          "Qualifiers":  "read = True",
+                                                                          "ReferenceClassName":  null
+                                                                      },
+                                                                      {
+                                                                          "Name":  "FreeSpaceInPagingFiles",
+                                                                          "Value":  null,
+                                                                          "CimType":  8,
+                                                                          "Flags":  "Property, ReadOnly, NullValue",
+                                                                          "Qualifiers":  "MappingStrings = ... read = True",
+                                                                          "ReferenceClassName":  null
+                                                                      },
+                                                                      {
+                                                                          "Name":  "FreeVirtualMemory",
+                                                                          "Value":  null,
+                                                                          "CimType":  8,
+                                                                          "Flags":  "Property, ReadOnly, NullValue",
+                                                                          "Qualifiers":  "read = True",
+                                                                          "ReferenceClassName":  null
+                                                                      },
+                                                                      {
+                                                                          "Name":  "LastBootUpTime",
+                                                                          "Value":  null,
+                                                                          "CimType":  13,
+                                                                          "Flags":  "Property, ReadOnly, NullValue",
+                                                                          "Qualifiers":  "read = True",
+                                                                          "ReferenceClassName":  null
+                                                                      },
+                                                                      {
+                                                                          "Name":  "LocalDateTime",
+                                                                          "Value":  null,
+                                                                          "CimType":  13,
+                                                                          "Flags":  "Property, ReadOnly, NullValue",
+                                                                          "Qualifiers":  "MappingStrings = ... read = True",
+                                                                          "ReferenceClassName":  null
+                                                                      },
+                                                                      {
+                                                                          "Name":  "MaxNumberOfProcesses",
+                                                                          "Value":  null,
+                                                                          "CimType":  6,
+                                                                          "Flags":  "Property, ReadOnly, NullValue",
+                                                                          "Qualifiers":  "MappingStrings = ... read = True",
+                                                                          "ReferenceClassName":  null
+                                                                      },
+                                                                      {
+                                                                          "Name":  "MaxProcessMemorySize",
+                                                                          "Value":  null,
+                                                                          "CimType":  8,
+                                                                          "Flags":  "Property, ReadOnly, NullValue",
+                                                                          "Qualifiers":  "read = True",
+                                                                          "ReferenceClassName":  null
+                                                                      },
+                                                                      {
+                                                                          "Name":  "NumberOfLicensedUsers",
+                                                                          "Value":  null,
+                                                                          "CimType":  6,
+                                                                          "Flags":  "Property, ReadOnly, NullValue",
+                                                                          "Qualifiers":  "read = True",
+                                                                          "ReferenceClassName":  null
+                                                                      },
+                                                                      {
+                                                                          "Name":  "NumberOfProcesses",
+                                                                          "Value":  null,
+                                                                          "CimType":  6,
+                                                                          "Flags":  "Property, ReadOnly, NullValue",
+                                                                          "Qualifiers":  "MappingStrings = ... read = True",
+                                                                          "ReferenceClassName":  null
+                                                                      },
+                                                                      {
+                                                                          "Name":  "NumberOfUsers",
+                                                                          "Value":  null,
+                                                                          "CimType":  6,
+                                                                          "Flags":  "Property, ReadOnly, NullValue",
+                                                                          "Qualifiers":  "MappingStrings = ... read = True",
+                                                                          "ReferenceClassName":  null
+                                                                      },
+                                                                      {
+                                                                          "Name":  "OSType",
+                                                                          "Value":  null,
+                                                                          "CimType":  4,
+                                                                          "Flags":  "Property, ReadOnly, NullValue",
+                                                                          "Qualifiers":  "ModelCorrespondence = ... read = True",
+                                                                          "ReferenceClassName":  null
+                                                                      },
+                                                                      {
+                                                                          "Name":  "OtherTypeDescription",
+                                                                          "Value":  null,
+                                                                          "CimType":  14,
+                                                                          "Flags":  "Property, ReadOnly, NullValue",
+                                                                          "Qualifiers":  "MaxLen = 64 ModelCorrespondence = ... read = True",
+                                                                          "ReferenceClassName":  null
+                                                                      },
+                                                                      {
+                                                                          "Name":  "SizeStoredInPagingFiles",
+                                                                          "Value":  null,
+                                                                          "CimType":  8,
+                                                                          "Flags":  "Property, ReadOnly, NullValue",
+                                                                          "Qualifiers":  "MappingStrings = ... read = True",
+                                                                          "ReferenceClassName":  null
+                                                                      },
+                                                                      {
+                                                                          "Name":  "TotalSwapSpaceSize",
+                                                                          "Value":  null,
+                                                                          "CimType":  8,
+                                                                          "Flags":  "Property, ReadOnly, NullValue",
+                                                                          "Qualifiers":  "read = True",
+                                                                          "ReferenceClassName":  null
+                                                                      },
+                                                                      {
+                                                                          "Name":  "TotalVirtualMemorySize",
+                                                                          "Value":  null,
+                                                                          "CimType":  8,
+                                                                          "Flags":  "Property, ReadOnly, NullValue",
+                                                                          "Qualifiers":  "read = True",
+                                                                          "ReferenceClassName":  null
+                                                                      },
+                                                                      {
+                                                                          "Name":  "TotalVisibleMemorySize",
+                                                                          "Value":  null,
+                                                                          "CimType":  8,
+                                                                          "Flags":  "Property, ReadOnly, NullValue",
+                                                                          "Qualifiers":  "read = True",
+                                                                          "ReferenceClassName":  null
+                                                                      },
+                                                                      {
+                                                                          "Name":  "Version",
+                                                                          "Value":  null,
+                                                                          "CimType":  14,
+                                                                          "Flags":  "Property, ReadOnly, NullValue",
+                                                                          "Qualifiers":  "MappingStrings = ... read = True",
+                                                                          "ReferenceClassName":  null
+                                                                      }
+                                                                  ],
+                                           "CimClassQualifiers":  [
+                                                                      {
+                                                                          "Name":  "Locale",
+                                                                          "Value":  1033,
+                                                                          "CimType":  7,
+                                                                          "Flags":  "EnableOverride, ToSubclass"
+                                                                      },
+                                                                      {
+                                                                          "Name":  "UUID",
+                                                                          "Value":  "{8502C565-5FBB-11D2-AAC1-006008C78BC7}",
+                                                                          "CimType":  14,
+                                                                          "Flags":  "EnableOverride, ToSubclass"
+                                                                      },
+                                                                      {
+                                                                          "Name":  "Abstract",
+                                                                          "Value":  true,
+                                                                          "CimType":  1,
+                                                                          "Flags":  "EnableOverride, Restricted"
+                                                                      }
+                                                                  ],
+                                           "CimClassMethods":  [
+                                                                   {
+                                                                       "Name":  "Reboot",
+                                                                       "ReturnType":  6,
+                                                                       "Parameters":  "",
+                                                                       "Qualifiers":  ""
+                                                                   },
+                                                                   {
+                                                                       "Name":  "Shutdown",
+                                                                       "ReturnType":  6,
+                                                                       "Parameters":  "",
+                                                                       "Qualifiers":  ""
+                                                                   }
+                                                               ],
+                                           "CimSystemProperties":  {
+                                                                       "Namespace":  "ROOT/cimv2",
+                                                                       "ServerName":  "IVAN_PREDATOR",
+                                                                       "ClassName":  "CIM_OperatingSystem",
+                                                                       "Path":  null
+                                                                   }
+                                       },
+                     "CimClassProperties":  [
+                                                {
+                                                    "Name":  "Caption",
+                                                    "Value":  null,
+                                                    "CimType":  14,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "MaxLen = 64",
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "Description",
+                                                    "Value":  null,
+                                                    "CimType":  14,
+                                                    "Flags":  "Property, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "read = True",
+                                                                       "MappingStrings = ...",
+                                                                       "Override = \"Description\"",
+                                                                       "write = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "InstallDate",
+                                                    "Value":  null,
+                                                    "CimType":  13,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "MappingStrings = ...",
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "Name",
+                                                    "Value":  null,
+                                                    "CimType":  14,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "Status",
+                                                    "Value":  null,
+                                                    "CimType":  14,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "MaxLen = 10",
+                                                                       "read = True",
+                                                                       "ValueMap = ..."
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "CreationClassName",
+                                                    "Value":  null,
+                                                    "CimType":  14,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "CIM_Key = True",
+                                                                       "MaxLen = 256",
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "CSCreationClassName",
+                                                    "Value":  null,
+                                                    "CimType":  14,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "CIM_Key = True",
+                                                                       "MaxLen = 256",
+                                                                       "Propagated = \"CIM_ComputerSystem.CreationClassName\"",
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "CSName",
+                                                    "Value":  null,
+                                                    "CimType":  14,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "CIM_Key = True",
+                                                                       "MaxLen = 256",
+                                                                       "Propagated = \"CIM_ComputerSystem.Name\"",
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "CurrentTimeZone",
+                                                    "Value":  null,
+                                                    "CimType":  5,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "Distributed",
+                                                    "Value":  null,
+                                                    "CimType":  1,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "FreePhysicalMemory",
+                                                    "Value":  null,
+                                                    "CimType":  8,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "FreeSpaceInPagingFiles",
+                                                    "Value":  null,
+                                                    "CimType":  8,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "MappingStrings = ...",
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "FreeVirtualMemory",
+                                                    "Value":  null,
+                                                    "CimType":  8,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "LastBootUpTime",
+                                                    "Value":  null,
+                                                    "CimType":  13,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "LocalDateTime",
+                                                    "Value":  null,
+                                                    "CimType":  13,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "MappingStrings = ...",
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "MaxNumberOfProcesses",
+                                                    "Value":  null,
+                                                    "CimType":  6,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "MappingStrings = ...",
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "MaxProcessMemorySize",
+                                                    "Value":  null,
+                                                    "CimType":  8,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "NumberOfLicensedUsers",
+                                                    "Value":  null,
+                                                    "CimType":  6,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "NumberOfProcesses",
+                                                    "Value":  null,
+                                                    "CimType":  6,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "MappingStrings = ...",
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "NumberOfUsers",
+                                                    "Value":  null,
+                                                    "CimType":  6,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "MappingStrings = ...",
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "OSType",
+                                                    "Value":  null,
+                                                    "CimType":  4,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "ModelCorrespondence = ...",
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "OtherTypeDescription",
+                                                    "Value":  null,
+                                                    "CimType":  14,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "MaxLen = 64",
+                                                                       "ModelCorrespondence = ...",
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "SizeStoredInPagingFiles",
+                                                    "Value":  null,
+                                                    "CimType":  8,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "MappingStrings = ...",
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "TotalSwapSpaceSize",
+                                                    "Value":  null,
+                                                    "CimType":  8,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "TotalVirtualMemorySize",
+                                                    "Value":  null,
+                                                    "CimType":  8,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "TotalVisibleMemorySize",
+                                                    "Value":  null,
+                                                    "CimType":  8,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "Version",
+                                                    "Value":  null,
+                                                    "CimType":  14,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "MappingStrings = ...",
+                                                                       "read = True",
+                                                                       "Override = \"Version\""
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "BootDevice",
+                                                    "Value":  null,
+                                                    "CimType":  14,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "MappingStrings = ...",
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "BuildNumber",
+                                                    "Value":  null,
+                                                    "CimType":  14,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "MappingStrings = ...",
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "BuildType",
+                                                    "Value":  null,
+                                                    "CimType":  14,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "MappingStrings = ...",
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "CodeSet",
+                                                    "Value":  null,
+                                                    "CimType":  14,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "MappingStrings = ...",
+                                                                       "MaxLen = 6",
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "CountryCode",
+                                                    "Value":  null,
+                                                    "CimType":  14,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "MappingStrings = ...",
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "CSDVersion",
+                                                    "Value":  null,
+                                                    "CimType":  14,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "MappingStrings = ...",
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "DataExecutionPrevention_32BitApplications",
+                                                    "Value":  null,
+                                                    "CimType":  1,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "MappingStrings = ...",
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "DataExecutionPrevention_Available",
+                                                    "Value":  null,
+                                                    "CimType":  1,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "MappingStrings = ...",
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "DataExecutionPrevention_Drivers",
+                                                    "Value":  null,
+                                                    "CimType":  1,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "MappingStrings = ...",
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "DataExecutionPrevention_SupportPolicy",
+                                                    "Value":  null,
+                                                    "CimType":  2,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "MappingStrings = ...",
+                                                                       "read = True",
+                                                                       "ValueMap = ..."
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "Debug",
+                                                    "Value":  null,
+                                                    "CimType":  1,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "MappingStrings = ...",
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "EncryptionLevel",
+                                                    "Value":  null,
+                                                    "CimType":  6,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "ForegroundApplicationBoost",
+                                                    "Value":  null,
+                                                    "CimType":  2,
+                                                    "Flags":  "Property, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "MappingStrings = ...",
+                                                                       "read = True",
+                                                                       "write = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "LargeSystemCache",
+                                                    "Value":  null,
+                                                    "CimType":  6,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "DEPRECATED = True",
+                                                                       "read = True",
+                                                                       "ValueMap = ..."
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "Locale",
+                                                    "Value":  null,
+                                                    "CimType":  14,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "MappingStrings = ...",
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "Manufacturer",
+                                                    "Value":  null,
+                                                    "CimType":  14,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "MappingStrings = ...",
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "MUILanguages",
+                                                    "Value":  null,
+                                                    "CimType":  30,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "MappingStrings = ...",
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "OperatingSystemSKU",
+                                                    "Value":  null,
+                                                    "CimType":  6,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "MappingStrings = ...",
+                                                                       "read = True",
+                                                                       "ValueMap = ..."
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "Organization",
+                                                    "Value":  null,
+                                                    "CimType":  14,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "MappingStrings = ...",
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "OSArchitecture",
+                                                    "Value":  null,
+                                                    "CimType":  14,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "OSLanguage",
+                                                    "Value":  null,
+                                                    "CimType":  6,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "MappingStrings = ...",
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "OSProductSuite",
+                                                    "Value":  null,
+                                                    "CimType":  6,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "MappingStrings = ...",
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "PAEEnabled",
+                                                    "Value":  null,
+                                                    "CimType":  1,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "PlusProductID",
+                                                    "Value":  null,
+                                                    "CimType":  14,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "MappingStrings = ...",
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "PlusVersionNumber",
+                                                    "Value":  null,
+                                                    "CimType":  14,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "MappingStrings = ...",
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "PortableOperatingSystem",
+                                                    "Value":  null,
+                                                    "CimType":  1,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "Primary",
+                                                    "Value":  null,
+                                                    "CimType":  1,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "MappingStrings = ...",
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "ProductType",
+                                                    "Value":  null,
+                                                    "CimType":  6,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "read = True",
+                                                                       "ValueMap = ..."
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "RegisteredUser",
+                                                    "Value":  null,
+                                                    "CimType":  14,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "MappingStrings = ...",
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "SerialNumber",
+                                                    "Value":  null,
+                                                    "CimType":  14,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "MappingStrings = ...",
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "ServicePackMajorVersion",
+                                                    "Value":  null,
+                                                    "CimType":  4,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "MappingStrings = ...",
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "ServicePackMinorVersion",
+                                                    "Value":  null,
+                                                    "CimType":  4,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "MappingStrings = ...",
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "SuiteMask",
+                                                    "Value":  null,
+                                                    "CimType":  6,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "BitMap = ...",
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "SystemDevice",
+                                                    "Value":  null,
+                                                    "CimType":  14,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "MappingStrings = ...",
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "SystemDirectory",
+                                                    "Value":  null,
+                                                    "CimType":  14,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "MappingStrings = ...",
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "SystemDrive",
+                                                    "Value":  null,
+                                                    "CimType":  14,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                },
+                                                {
+                                                    "Name":  "WindowsDirectory",
+                                                    "Value":  null,
+                                                    "CimType":  14,
+                                                    "Flags":  "Property, ReadOnly, NullValue",
+                                                    "Qualifiers":  [
+                                                                       "MappingStrings = ...",
+                                                                       "read = True"
+                                                                   ],
+                                                    "ReferenceClassName":  null
+                                                }
+                                            ],
+                     "CimClassQualifiers":  [
+                                                {
+                                                    "Name":  "Locale",
+                                                    "Value":  1033,
+                                                    "CimType":  7,
+                                                    "Flags":  "EnableOverride, ToSubclass"
+                                                },
+                                                {
+                                                    "Name":  "UUID",
+                                                    "Value":  "{8502C4DE-5FBB-11D2-AAC1-006008C78BC7}",
+                                                    "CimType":  14,
+                                                    "Flags":  "EnableOverride, ToSubclass"
+                                                },
+                                                {
+                                                    "Name":  "dynamic",
+                                                    "Value":  true,
+                                                    "CimType":  1,
+                                                    "Flags":  "EnableOverride, ToSubclass"
+                                                },
+                                                {
+                                                    "Name":  "provider",
+                                                    "Value":  "CIMWin32",
+                                                    "CimType":  14,
+                                                    "Flags":  "EnableOverride, ToSubclass"
+                                                },
+                                                {
+                                                    "Name":  "Singleton",
+                                                    "Value":  true,
+                                                    "CimType":  1,
+                                                    "Flags":  "DisableOverride, ToSubclass"
+                                                },
+                                                {
+                                                    "Name":  "SupportsUpdate",
+                                                    "Value":  true,
+                                                    "CimType":  1,
+                                                    "Flags":  "EnableOverride, Restricted"
+                                                }
+                                            ],
+                     "CimClassMethods":  [
+                                             {
+                                                 "Name":  "Reboot",
+                                                 "ReturnType":  6,
+                                                 "Parameters":  [
+
+                                                                ],
+                                                 "Qualifiers":  [
+                                                                    "Implemented = True",
+                                                                    "MappingStrings = ...",
+                                                                    "Override = \"Reboot\"",
+                                                                    "Privileges = ...",
+                                                                    "ValueMap = ..."
+                                                                ]
+                                             },
+                                             {
+                                                 "Name":  "Shutdown",
+                                                 "ReturnType":  6,
+                                                 "Parameters":  [
+
+                                                                ],
+                                                 "Qualifiers":  [
+                                                                    "Implemented = True",
+                                                                    "MappingStrings = ...",
+                                                                    "Override = \"Shutdown\"",
+                                                                    "Privileges = ...",
+                                                                    "ValueMap = ..."
+                                                                ]
+                                             },
+                                             {
+                                                 "Name":  "Win32Shutdown",
+                                                 "ReturnType":  6,
+                                                 "Parameters":  [
+                                                                    "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+                                                                    "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod"
+                                                                ],
+                                                 "Qualifiers":  [
+                                                                    "Implemented = True",
+                                                                    "MappingStrings = ...",
+                                                                    "Privileges = ...",
+                                                                    "ValueMap = ..."
+                                                                ]
+                                             },
+                                             {
+                                                 "Name":  "Win32ShutdownTracker",
+                                                 "ReturnType":  6,
+                                                 "Parameters":  [
+                                                                    "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+                                                                    "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+                                                                    "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod",
+                                                                    "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod"
+                                                                ],
+                                                 "Qualifiers":  [
+                                                                    "Implemented = True",
+                                                                    "MappingStrings = ...",
+                                                                    "Privileges = ...",
+                                                                    "ValueMap = ..."
+                                                                ]
+                                             },
+                                             {
+                                                 "Name":  "SetDateTime",
+                                                 "ReturnType":  6,
+                                                 "Parameters":  [
+                                                                    "Microsoft.Management.Infrastructure.Internal.Data.CimMethodParameterDeclarationOfMethod"
+                                                                ],
+                                                 "Qualifiers":  [
+                                                                    "Implemented = True",
+                                                                    "Privileges = ...",
+                                                                    "ValueMap = ..."
+                                                                ]
+                                             }
+                                         ],
+                     "CimSystemProperties":  {
+                                                 "Namespace":  "root/cimv2",
+                                                 "ServerName":  "IVAN_PREDATOR",
+                                                 "ClassName":  "Win32_OperatingSystem",
+                                                 "Path":  null
+                                             }
                  },
-    "OsBuildType":  "Multiprocessor Free",
-    "OsCodeSet":  "1252",
-    "OsDataExecutionPreventionAvailable":  true,
-    "OsDataExecutionPrevention32BitApplications":  true,
-    "OsDataExecutionPreventionDrivers":  true,
-    "OsDataExecutionPreventionSupportPolicy":  2,
-    "OsDebug":  false,
-    "OsDistributed":  false,
-    "OsEncryptionLevel":  256,
-    "OsForegroundApplicationBoost":  2,
-    "OsTotalVisibleMemorySize":  33267576,
-    "OsFreePhysicalMemory":  17129684,
-    "OsTotalVirtualMemorySize":  35364728,
-    "OsFreeVirtualMemory":  15256836,
-    "OsInUseVirtualMemory":  20107892,
-    "OsTotalSwapSpaceSize":  null,
-    "OsSizeStoredInPagingFiles":  2097152,
-    "OsFreeSpaceInPagingFiles":  1961848,
-    "OsPagingFiles":  [
-                          "C:\\pagefile.sys"
-                      ],
-    "OsHardwareAbstractionLayer":  "10.0.26100.1",
-    "OsInstallDate":  "\/Date(1751215593000)\/",
-    "OsManufacturer":  "Microsoft Corporation",
-    "OsMaxNumberOfProcesses":  4294967295,
-    "OsMaxProcessMemorySize":  137438953344,
-    "OsMuiLanguages":  [
-                           "pt-PT"
-                       ],
-    "OsNumberOfLicensedUsers":  null,
-    "OsNumberOfProcesses":  328,
-    "OsNumberOfUsers":  2,
-    "OsOrganization":  null,
-    "OsArchitecture":  "64 bits",
-    "OsLanguage":  "pt-PT",
-    "OsProductSuites":  [
-                            256,
-                            512
-                        ],
-    "OsOtherTypeDescription":  null,
-    "OsPAEEnabled":  null,
-    "OsPortableOperatingSystem":  false,
-    "OsPrimary":  true,
-    "OsProductType":  1,
-    "OsRegisteredUser":  "ivan.almeida1979@gmail.com",
-    "OsSerialNumber":  "00325-97250-04250-AAOEM",
-    "OsServicePackMajorVersion":  0,
-    "OsServicePackMinorVersion":  0,
-    "OsStatus":  "OK",
-    "OsSuites":  [
-                     16,
-                     256,
-                     512
-                 ],
-    "OsServerLevel":  null,
-    "BiosCharacteristics":  [
-                                7,
-                                11,
-                                12,
-                                15,
-                                16,
-                                19,
-                                20,
-                                21,
-                                22,
-                                23,
-                                24,
-                                25,
-                                27,
-                                30,
-                                32,
-                                33,
-                                40,
-                                42,
-                                43
-                            ],
-    "BiosBIOSVersion":  [
-                            "ACRSYS - 2",
-                            "V1.16",
-                            "INSYDE Corp. - 54445116"
-                        ],
-    "BiosBuildNumber":  null,
-    "BiosCaption":  "V1.16",
-    "BiosCodeSet":  null,
-    "BiosCurrentLanguage":  null,
-    "BiosDescription":  "V1.16",
-    "BiosEmbeddedControllerMajorVersion":  1,
-    "BiosEmbeddedControllerMinorVersion":  5,
-    "BiosFirmwareType":  2,
-    "BiosIdentificationCode":  null,
-    "BiosInstallableLanguages":  null,
-    "BiosInstallDate":  null,
-    "BiosLanguageEdition":  null,
-    "BiosListOfLanguages":  null,
-    "BiosManufacturer":  "INSYDE Corp.",
-    "BiosName":  "V1.16",
-    "BiosOtherTargetOS":  null,
-    "BiosPrimaryBIOS":  true,
-    "BiosReleaseDate":  "\/Date(1711324800000)\/",
-    "BiosSeralNumber":  "NHQLUEB00D4120B2987600",
-    "BiosSMBIOSBIOSVersion":  "V1.16",
-    "BiosSMBIOSMajorVersion":  3,
-    "BiosSMBIOSMinorVersion":  4,
-    "BiosSMBIOSPresent":  true,
-    "BiosSoftwareElementState":  3,
-    "BiosStatus":  "OK",
-    "BiosSystemBiosMajorVersion":  1,
-    "BiosSystemBiosMinorVersion":  16,
-    "BiosTargetOperatingSystem":  0,
-    "BiosVersion":  "ACRSYS - 2",
-    "CsAdminPasswordStatus":  3,
-    "CsAutomaticManagedPagefile":  true,
-    "CsAutomaticResetBootOption":  true,
-    "CsAutomaticResetCapability":  true,
-    "CsBootOptionOnLimit":  null,
-    "CsBootOptionOnWatchDog":  null,
-    "CsBootROMSupported":  true,
-    "CsBootStatus":  null,
-    "CsBootupState":  "Normal boot",
-    "CsCaption":  "IVAN_PREDATOR",
-    "CsChassisBootupState":  3,
-    "CsChassisSKUNumber":  null,
-    "CsCurrentTimeZone":  0,
-    "CsDaylightInEffect":  false,
-    "CsDescription":  "AT/AT COMPATIBLE",
-    "CsDNSHostName":  "Ivan_Predator",
-    "CsDomain":  "WORKGROUP",
-    "CsDomainRole":  0,
-    "CsEnableDaylightSavingsTime":  true,
-    "CsFrontPanelResetStatus":  3,
-    "CsHypervisorPresent":  true,
-    "CsInfraredSupported":  false,
-    "CsInitialLoadInfo":  null,
-    "CsInstallDate":  null,
-    "CsKeyboardPasswordStatus":  3,
-    "CsLastLoadInfo":  null,
-    "CsManufacturer":  "Acer",
-    "CsModel":  "Predator PHN16-71",
-    "CsName":  "IVAN_PREDATOR",
-    "CsNetworkAdapters":  [
-                              {
-                                  "Description":  "Killer E2600 Gigabit Ethernet Controller",
-                                  "ConnectionID":  "Ethernet",
-                                  "DHCPEnabled":  null,
-                                  "DHCPServer":  null,
-                                  "ConnectionStatus":  7,
-                                  "IPAddresses":  null
-                              },
-                              {
-                                  "Description":  "Killer(R) Wi-Fi 6 AX1650i 160MHz Wireless Network Adapter (201NGW)",
-                                  "ConnectionID":  "Wi-Fi",
-                                  "DHCPEnabled":  true,
-                                  "DHCPServer":  "192.168.1.1",
-                                  "ConnectionStatus":  2,
-                                  "IPAddresses":  [
-                                                      "192.168.1.129",
-                                                      "fe80::e0b9:44f7:f053:4b77",
-                                                      "2001:818:df11:3400:69b3:6818:7f23:2c1a",
-                                                      "2001:818:df11:3400:92cc:c4f0:d9d4:5b2"
-                                                  ]
-                              },
-                              {
-                                  "Description":  "Bluetooth Device (Personal Area Network)",
-                                  "ConnectionID":  "Ligação de Rede Bluetooth",
-                                  "DHCPEnabled":  null,
-                                  "DHCPServer":  null,
-                                  "ConnectionStatus":  7,
-                                  "IPAddresses":  null
-                              },
-                              {
-                                  "Description":  "OpenVPN Data Channel Offload",
-                                  "ConnectionID":  "OpenVPN Data Channel Offload for Surfshark",
-                                  "DHCPEnabled":  null,
-                                  "DHCPServer":  null,
-                                  "ConnectionStatus":  7,
-                                  "IPAddresses":  null
-                              },
-                              {
-                                  "Description":  "VirtualBox Host-Only Ethernet Adapter",
-                                  "ConnectionID":  "Ethernet 2",
-                                  "DHCPEnabled":  false,
-                                  "DHCPServer":  null,
-                                  "ConnectionStatus":  2,
-                                  "IPAddresses":  [
-                                                      "192.168.56.1",
-                                                      "fe80::aa71:1391:4e6c:e0b3"
-                                                  ]
-                              }
-                          ],
-    "CsNetworkServerModeEnabled":  true,
-    "CsNumberOfLogicalProcessors":  32,
-    "CsNumberOfProcessors":  1,
-    "CsProcessors":  [
-                         {
-                             "Name":  "13th Gen Intel(R) Core(TM) i9-13900HX",
-                             "Manufacturer":  "GenuineIntel",
-                             "Description":  "Intel64 Family 6 Model 183 Stepping 1",
-                             "Architecture":  9,
-                             "AddressWidth":  64,
-                             "DataWidth":  64,
-                             "MaxClockSpeed":  2200,
-                             "CurrentClockSpeed":  2200,
-                             "NumberOfCores":  24,
-                             "NumberOfLogicalProcessors":  32,
-                             "ProcessorID":  "BFEBFBFF000B0671",
-                             "SocketDesignation":  "U3E1",
-                             "ProcessorType":  3,
-                             "Role":  "CPU",
-                             "Status":  "OK",
-                             "CpuStatus":  1,
-                             "Availability":  3
-                         }
+    "CimInstanceProperties":  [
+                                  {
+                                      "Name":  "Caption",
+                                      "Value":  "Microsoft Windows 11 Home",
+                                      "CimType":  14,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "Description",
+                                      "Value":  "",
+                                      "CimType":  14,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "InstallDate",
+                                      "Value":  "\/Date(1751215593000)\/",
+                                      "CimType":  13,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "Name",
+                                      "Value":  "Microsoft Windows 11 Home|C:\\WINDOWS|\\Device\\Harddisk0\\Partition3",
+                                      "CimType":  14,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "Status",
+                                      "Value":  "OK",
+                                      "CimType":  14,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "CreationClassName",
+                                      "Value":  "Win32_OperatingSystem",
+                                      "CimType":  14,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "CSCreationClassName",
+                                      "Value":  "Win32_ComputerSystem",
+                                      "CimType":  14,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "CSName",
+                                      "Value":  "IVAN_PREDATOR",
+                                      "CimType":  14,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "CurrentTimeZone",
+                                      "Value":  0,
+                                      "CimType":  5,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "Distributed",
+                                      "Value":  false,
+                                      "CimType":  1,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "FreePhysicalMemory",
+                                      "Value":  18596028,
+                                      "CimType":  8,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "FreeSpaceInPagingFiles",
+                                      "Value":  1913560,
+                                      "CimType":  8,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "FreeVirtualMemory",
+                                      "Value":  14336976,
+                                      "CimType":  8,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "LastBootUpTime",
+                                      "Value":  "\/Date(1770281984500)\/",
+                                      "CimType":  13,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "LocalDateTime",
+                                      "Value":  "\/Date(1770292028122)\/",
+                                      "CimType":  13,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "MaxNumberOfProcesses",
+                                      "Value":  4294967295,
+                                      "CimType":  6,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "MaxProcessMemorySize",
+                                      "Value":  137438953344,
+                                      "CimType":  8,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "NumberOfLicensedUsers",
+                                      "Value":  null,
+                                      "CimType":  6,
+                                      "Flags":  "Property, ReadOnly, NotModified, NullValue",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "NumberOfProcesses",
+                                      "Value":  324,
+                                      "CimType":  6,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "NumberOfUsers",
+                                      "Value":  2,
+                                      "CimType":  6,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "OSType",
+                                      "Value":  18,
+                                      "CimType":  4,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "OtherTypeDescription",
+                                      "Value":  null,
+                                      "CimType":  14,
+                                      "Flags":  "Property, ReadOnly, NotModified, NullValue",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "SizeStoredInPagingFiles",
+                                      "Value":  2097152,
+                                      "CimType":  8,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "TotalSwapSpaceSize",
+                                      "Value":  null,
+                                      "CimType":  8,
+                                      "Flags":  "Property, ReadOnly, NotModified, NullValue",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "TotalVirtualMemorySize",
+                                      "Value":  35364728,
+                                      "CimType":  8,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "TotalVisibleMemorySize",
+                                      "Value":  33267576,
+                                      "CimType":  8,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "Version",
+                                      "Value":  "10.0.26200",
+                                      "CimType":  14,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "BootDevice",
+                                      "Value":  "\\Device\\HarddiskVolume1",
+                                      "CimType":  14,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "BuildNumber",
+                                      "Value":  "26200",
+                                      "CimType":  14,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "BuildType",
+                                      "Value":  "Multiprocessor Free",
+                                      "CimType":  14,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "CodeSet",
+                                      "Value":  "1252",
+                                      "CimType":  14,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "CountryCode",
+                                      "Value":  "351",
+                                      "CimType":  14,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "CSDVersion",
+                                      "Value":  null,
+                                      "CimType":  14,
+                                      "Flags":  "Property, ReadOnly, NotModified, NullValue",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "DataExecutionPrevention_32BitApplications",
+                                      "Value":  true,
+                                      "CimType":  1,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "DataExecutionPrevention_Available",
+                                      "Value":  true,
+                                      "CimType":  1,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "DataExecutionPrevention_Drivers",
+                                      "Value":  true,
+                                      "CimType":  1,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "DataExecutionPrevention_SupportPolicy",
+                                      "Value":  2,
+                                      "CimType":  2,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "Debug",
+                                      "Value":  false,
+                                      "CimType":  1,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "EncryptionLevel",
+                                      "Value":  256,
+                                      "CimType":  6,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "ForegroundApplicationBoost",
+                                      "Value":  2,
+                                      "CimType":  2,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "LargeSystemCache",
+                                      "Value":  null,
+                                      "CimType":  6,
+                                      "Flags":  "Property, ReadOnly, NotModified, NullValue",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "Locale",
+                                      "Value":  "0816",
+                                      "CimType":  14,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "Manufacturer",
+                                      "Value":  "Microsoft Corporation",
+                                      "CimType":  14,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "MUILanguages",
+                                      "Value":  [
+                                                    "pt-PT"
+                                                ],
+                                      "CimType":  30,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "OperatingSystemSKU",
+                                      "Value":  101,
+                                      "CimType":  6,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "Organization",
+                                      "Value":  null,
+                                      "CimType":  14,
+                                      "Flags":  "Property, ReadOnly, NotModified, NullValue",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "OSArchitecture",
+                                      "Value":  "64 bits",
+                                      "CimType":  14,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "OSLanguage",
+                                      "Value":  2070,
+                                      "CimType":  6,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "OSProductSuite",
+                                      "Value":  768,
+                                      "CimType":  6,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "PAEEnabled",
+                                      "Value":  null,
+                                      "CimType":  1,
+                                      "Flags":  "Property, ReadOnly, NotModified, NullValue",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "PlusProductID",
+                                      "Value":  null,
+                                      "CimType":  14,
+                                      "Flags":  "Property, ReadOnly, NotModified, NullValue",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "PlusVersionNumber",
+                                      "Value":  null,
+                                      "CimType":  14,
+                                      "Flags":  "Property, ReadOnly, NotModified, NullValue",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "PortableOperatingSystem",
+                                      "Value":  false,
+                                      "CimType":  1,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "Primary",
+                                      "Value":  true,
+                                      "CimType":  1,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "ProductType",
+                                      "Value":  1,
+                                      "CimType":  6,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "RegisteredUser",
+                                      "Value":  "ivan.almeida1979@gmail.com",
+                                      "CimType":  14,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "SerialNumber",
+                                      "Value":  "00325-97250-04250-AAOEM",
+                                      "CimType":  14,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "ServicePackMajorVersion",
+                                      "Value":  0,
+                                      "CimType":  4,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "ServicePackMinorVersion",
+                                      "Value":  0,
+                                      "CimType":  4,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "SuiteMask",
+                                      "Value":  784,
+                                      "CimType":  6,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "SystemDevice",
+                                      "Value":  "\\Device\\HarddiskVolume3",
+                                      "CimType":  14,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "SystemDirectory",
+                                      "Value":  "C:\\WINDOWS\\system32",
+                                      "CimType":  14,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "SystemDrive",
+                                      "Value":  "C:",
+                                      "CimType":  14,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "WindowsDirectory",
+                                      "Value":  "C:\\WINDOWS",
+                                      "CimType":  14,
+                                      "Flags":  "Property, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  }
+                              ],
+    "CimSystemProperties":  {
+                                "Namespace":  "root/cimv2",
+                                "ServerName":  "IVAN_PREDATOR",
+                                "ClassName":  "Win32_OperatingSystem",
+                                "Path":  null
+                            },
+    "Caption":  "Microsoft Windows 11 Home",
+    "Description":  "",
+    "InstallDate":  "\/Date(1751215593000)\/",
+    "Name":  "Microsoft Windows 11 Home|C:\\WINDOWS|\\Device\\Harddisk0\\Partition3",
+    "Status":  "OK",
+    "CreationClassName":  "Win32_OperatingSystem",
+    "CSCreationClassName":  "Win32_ComputerSystem",
+    "CSName":  "IVAN_PREDATOR",
+    "CurrentTimeZone":  0,
+    "Distributed":  false,
+    "FreePhysicalMemory":  18596028,
+    "FreeSpaceInPagingFiles":  1913560,
+    "FreeVirtualMemory":  14336976,
+    "LastBootUpTime":  "\/Date(1770281984500)\/",
+    "LocalDateTime":  "\/Date(1770292028122)\/",
+    "MaxNumberOfProcesses":  4294967295,
+    "MaxProcessMemorySize":  137438953344,
+    "NumberOfLicensedUsers":  null,
+    "NumberOfProcesses":  324,
+    "NumberOfUsers":  2,
+    "OSType":  18,
+    "OtherTypeDescription":  null,
+    "SizeStoredInPagingFiles":  2097152,
+    "TotalSwapSpaceSize":  null,
+    "TotalVirtualMemorySize":  35364728,
+    "TotalVisibleMemorySize":  33267576,
+    "Version":  "10.0.26200",
+    "BootDevice":  "\\Device\\HarddiskVolume1",
+    "BuildNumber":  "26200",
+    "BuildType":  "Multiprocessor Free",
+    "CodeSet":  "1252",
+    "CountryCode":  "351",
+    "CSDVersion":  null,
+    "DataExecutionPrevention_32BitApplications":  true,
+    "DataExecutionPrevention_Available":  true,
+    "DataExecutionPrevention_Drivers":  true,
+    "DataExecutionPrevention_SupportPolicy":  2,
+    "Debug":  false,
+    "EncryptionLevel":  256,
+    "ForegroundApplicationBoost":  2,
+    "LargeSystemCache":  null,
+    "Locale":  "0816",
+    "Manufacturer":  "Microsoft Corporation",
+    "MUILanguages":  [
+                         "pt-PT"
                      ],
-    "CsOEMStringArray":  [
-                             "Acer System",
-                             "                                                  ",
-                             "OemString3",
-                             "OemString4",
-                             "OemString5",
-                             "OemString6"
-                         ],
-    "CsPartOfDomain":  false,
-    "CsPauseAfterReset":  -1,
-    "CsPCSystemType":  2,
-    "CsPCSystemTypeEx":  2,
-    "CsPowerManagementCapabilities":  null,
-    "CsPowerManagementSupported":  null,
-    "CsPowerOnPasswordStatus":  3,
-    "CsPowerState":  0,
-    "CsPowerSupplyState":  3,
-    "CsPrimaryOwnerContact":  null,
-    "CsPrimaryOwnerName":  "ivan.almeida1979@gmail.com",
-    "CsResetCapability":  1,
-    "CsResetCount":  -1,
-    "CsResetLimit":  -1,
-    "CsRoles":  [
-                    "LM_Workstation",
-                    "LM_Server",
-                    "NT"
-                ],
-    "CsStatus":  "OK",
-    "CsSupportContactDescription":  null,
-    "CsSystemFamily":  "Predator Helios Neo 16",
-    "CsSystemSKUNumber":  "0000000000000000",
-    "CsSystemType":  "x64-based PC",
-    "CsThermalState":  3,
-    "CsTotalPhysicalMemory":  34065997824,
-    "CsPhyicallyInstalledMemory":  33554432,
-    "CsUserName":  "Ivan_Predator\\ivana",
-    "CsWakeUpType":  6,
-    "CsWorkgroup":  "WORKGROUP"
+    "OperatingSystemSKU":  101,
+    "Organization":  null,
+    "OSArchitecture":  "64 bits",
+    "OSLanguage":  2070,
+    "OSProductSuite":  768,
+    "PAEEnabled":  null,
+    "PlusProductID":  null,
+    "PlusVersionNumber":  null,
+    "PortableOperatingSystem":  false,
+    "Primary":  true,
+    "ProductType":  1,
+    "RegisteredUser":  "ivan.almeida1979@gmail.com",
+    "SerialNumber":  "00325-97250-04250-AAOEM",
+    "ServicePackMajorVersion":  0,
+    "ServicePackMinorVersion":  0,
+    "SuiteMask":  784,
+    "SystemDevice":  "\\Device\\HarddiskVolume3",
+    "SystemDirectory":  "C:\\WINDOWS\\system32",
+    "SystemDrive":  "C:",
+    "WindowsDirectory":  "C:\\WINDOWS",
+    "PSComputerName":  null
 }
