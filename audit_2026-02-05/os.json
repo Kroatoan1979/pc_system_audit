@@ -1183,21 +1183,21 @@
     },
     {
       "Name": "FreePhysicalMemory",
-      "Value": 17730296,
+      "Value": 17331800,
       "CimType": 8,
       "Flags": "Property, ReadOnly, NotModified",
       "IsValueModified": false
     },
     {
       "Name": "FreeSpaceInPagingFiles",
-      "Value": 1927872,
+      "Value": 1937344,
       "CimType": 8,
       "Flags": "Property, ReadOnly, NotModified",
       "IsValueModified": false
     },
     {
       "Name": "FreeVirtualMemory",
-      "Value": 14302780,
+      "Value": 13805076,
       "CimType": 8,
       "Flags": "Property, ReadOnly, NotModified",
       "IsValueModified": false
@@ -1211,7 +1211,7 @@
     },
     {
       "Name": "LocalDateTime",
-      "Value": "2026-02-05T12:16:37.326+00:00",
+      "Value": "2026-02-05T12:23:03.398+00:00",
       "CimType": 13,
       "Flags": "Property, ReadOnly, NotModified",
       "IsValueModified": false
@@ -1239,7 +1239,7 @@
     },
     {
       "Name": "NumberOfProcesses",
-      "Value": 336,
+      "Value": 338,
       "CimType": 6,
       "Flags": "Property, ReadOnly, NotModified",
       "IsValueModified": false
@@ -1578,15 +1578,15 @@
   "CSName": "IVAN_PREDATOR",
   "CurrentTimeZone": 0,
   "Distributed": false,
-  "FreePhysicalMemory": 17730296,
-  "FreeSpaceInPagingFiles": 1927872,
-  "FreeVirtualMemory": 14302780,
+  "FreePhysicalMemory": 17331800,
+  "FreeSpaceInPagingFiles": 1937344,
+  "FreeVirtualMemory": 13805076,
   "LastBootUpTime": "2026-02-05T08:59:44.5+00:00",
-  "LocalDateTime": "2026-02-05T12:16:37.326+00:00",
+  "LocalDateTime": "2026-02-05T12:23:03.398+00:00",
   "MaxNumberOfProcesses": 4294967295,
   "MaxProcessMemorySize": 137438953344,
   "NumberOfLicensedUsers": null,
-  "NumberOfProcesses": 336,
+  "NumberOfProcesses": 338,
   "NumberOfUsers": 2,
   "OSType": 18,
   "OtherTypeDescription": null,

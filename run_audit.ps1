@@ -91,13 +91,25 @@ wsl --status 2>$null | Format-List | Out-String | Out-File -Append -FilePath $de
 $perfTxt = Join-AuditPath "performance_snapshot.txt"
 
 "=== CPU ===" | Out-File -FilePath $perfTxt -Encoding utf8
-Get-CimInstance Win32_Processor | Select-Object LoadPercentage | Format-Table | Out-String | Out-File -Append -FilePath $perfTxt -Encoding utf8
+Get-CimInstance Win32_Processor |
+    Select-Object LoadPercentage |
+    Format-Table |
+    Out-String |
+    Out-File -Append -FilePath $perfTxt -Encoding utf8
 
-"=== Memoria ===" | Out-File -Append -FilePath $perfTxt
-Get-CimInstance Win32_OperatingSystem | Select-Object FreePhysicalMemory, TotalVisibleMemorySize | Format-Table | Out-String | Out-File -Append -FilePath $perfTxt -Encoding utf8
+"=== Memoria ===" | Out-File -Append -FilePath $perfTxt -Encoding utf8
+Get-CimInstance Win32_OperatingSystem |
+    Select-Object FreePhysicalMemory, TotalVisibleMemorySize |
+    Format-Table |
+    Out-String |
+    Out-File -Append -FilePath $perfTxt -Encoding utf8
 
-"=== Disco ===" | Out-File -Append -FilePath $perfTxt
-Get-CimInstance Win32_LogicalDisk | Select-Object DeviceID, FreeSpace, Size | Format-Table | Out-String | Out-File -Append -FilePath $perfTxt -Encoding utf8
+"=== Disco ===" | Out-File -Append -FilePath $perfTxt -Encoding utf8
+Get-CimInstance Win32_LogicalDisk |
+    Select-Object DeviceID, FreeSpace, Size |
+    Format-Table |
+    Out-String |
+    Out-File -Append -FilePath $perfTxt -Encoding utf8
 
 # ============================
 # 7. Relatorio consolidado (TXT + MD)
